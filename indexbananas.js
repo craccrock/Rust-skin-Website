@@ -1,6 +1,6 @@
 import axios from 'axios'
 import express from 'express'
-import { createClient, SchemaFieldTypes, AggregateGroupByReducers, AggregateSteps } from 'redis';
+import { createClient, SchemaFieldTypes} from 'redis';
 
 const app = express();
 const port = 3000;
