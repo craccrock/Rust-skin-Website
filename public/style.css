@@ -14,11 +14,32 @@
   src: url(/fonts/Mvdawlatulislam-Z8dJ.ttf);
   font-weight: 100;
 }
+@font-face {
+  font-family: "Aovel";
+  src: url(public\fonts\AovelSansRounded-rdDL.ttf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: "MVDAW";
+  src: url(public\fonts\Mvdawlatulislam-Z8dJ.ttf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: "paul";
+  src: url(public\fonts\Paul-le1V.ttf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: "typo";
+  src: url(public\fonts\Typographica.ttf);
+  font-weight: 100;
+}
+
 
 .header {
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(1, 4, 20, 0.6), rgba(1, 4, 20, 0.6)),
+  background-image: linear-gradient(rgba(1, 4, 20, 0.65), rgba(1, 4, 20, 0.65)),
     url(/pics/atro90.jpg);
   background-position: center;
   background-size: cover;
@@ -41,7 +62,6 @@ nav {
   position: relative;
 }
 .navlinks ul li:nth-child(2) {
-padding-right: 576px;
 }
 .navlinks ul li a {
   color: rgb(182, 181, 181);
@@ -68,6 +88,52 @@ nav.linksbg {
   padding-bottom: 0;
   padding-top: 0;
 }
+
+.social-menu ul{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  padding-left: 15px;
+}
+
+.social-menu ul li{
+  list-style: none;
+  margin: 0 15px;
+}
+
+.social-menu ul li .fa{
+  font-size: 25px;
+  line-height: 50px;
+  transition: .6s;
+  color: rgb(14, 14, 25);
+}
+.social-menu ul li .fab{
+  font-size: 25px;
+  line-height: 50px;
+  transition: .6s;
+  color: rgb(14, 14, 25);
+}
+.social-menu ul li a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(182, 181, 181);
+  text-align: center;
+  transition: .6s;
+  box-shadow: 0 5px 4px rgba(0,0,0, .5);
+}
+
+.social-menu ul li a:hover{
+transform: translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover{
+  background-color: #E4405F;
+  }
+.social-menu ul li:nth-child(2) a:hover{
+    background-color:rgba(88 101 242)
+    }
 .textbox {
   width: 90%;
   color: rgb(182, 181, 181);
@@ -79,11 +145,14 @@ nav.linksbg {
 }
 .textbox h1 {
   font-size: 50px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .textbox p {
   margin: 10px 0 40px;
-  font-size: 14px;
+  font-size: 20px;
   color: rgb(182, 181, 181);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 1000;
 }
 .button1 {
   display: inline-block;
@@ -339,6 +408,6 @@ body {
   margin: 10px 0;
 }
 .copyright {
-  font-family: MV;
+  font-family: Aovel;
   text-align: center;
 }

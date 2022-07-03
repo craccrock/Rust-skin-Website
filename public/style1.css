@@ -36,7 +36,7 @@ nav {
   position: relative;
 }
 .navlinks ul li:nth-child(2) {
-  padding-right: 576px;
+
   }
 .navlinks ul li a {
   color: rgb(182, 181, 181);
@@ -63,6 +63,51 @@ nav.linksbg {
   padding-bottom: 0;
   padding-top: 0;
 }
+
+.social-menu ul{
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.social-menu ul li{
+  list-style: none;
+  margin: 0 15px;
+}
+
+.social-menu ul li .fa{
+  font-size: 25px;
+  line-height: 50px;
+  transition: .6s;
+  color: rgb(14, 14, 25);
+}
+.social-menu ul li .fab{
+  font-size: 25px;
+  line-height: 50px;
+  transition: .6s;
+  color: rgb(14, 14, 25);
+}
+.social-menu ul li a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(182, 181, 181);
+  text-align: center;
+  transition: .6s;
+  box-shadow: 0 5px 4px rgba(0,0,0, .5);
+}
+
+.social-menu ul li a:hover{
+transform: translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover{
+  background-color: #E4405F;
+  }
+.social-menu ul li:nth-child(2) a:hover{
+    background-color:rgba(88 101 242)
+    }
 nav .fas {
   display: none;
 }
