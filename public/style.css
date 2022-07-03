@@ -243,20 +243,23 @@ p {
 }
 .rowcol {
   flex-basis: 31%;
-  background: #450f69;
+  top: 50%;
+  -ms-transform: translateY(28%);
+  transform: translateY(28%);
+}
+.front-page-img {
+  width: 800px;
   border-radius: 10px;
-  margin-bottom: 5%;
-  padding: 20px 12px;
-  box-sizing: border-box;
-  transition: 0.3s;
 }
 h3 {
   text-align: center;
   font-weight: 600;
   margin: 10px 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 24px;
 }
-.rowcol:hover {
-  box-shadow: 0px 0px 100px 10px rgba(140, 54, 184, 0.82);
+.rowcol p{
+  font-size: 17px;
 }
 @media (max-width: 700px) {
   .rows {
