@@ -3,7 +3,7 @@ import express from 'express'
 import { createClient, SchemaFieldTypes} from 'redis';
 
 const app = express();
-const port = process.env.port || 3000;
+const port = process.env.PORT || 5000;
 
 app.use(express.static("public"));
 
