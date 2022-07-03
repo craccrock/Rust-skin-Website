@@ -66,13 +66,13 @@ let apiLooped = await axios.get(apiPoint)
 let finalResults = await apiLooped.data.data
 
 
-for (let i = 0; i <= 3157; i++) {
+for (let i = 0; i <= 3160; i++) {
   await client.json.set(`noderedis:skins:${i}`, "$", finalResults[i]);
 }
 }
 
 
-// bababoey()
+bababoey()
 
 async function getData(){
 

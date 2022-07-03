@@ -144,7 +144,7 @@ allSkinsButton.addEventListener("click", () => {
 Customizable.addEventListener("click", () => {
     const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
     form.addEventListener('submit', () => {
-      for (let i = 0; i < 3133; i++) { 
+      for (let i = 0; i < 3160; i++) { 
         if (elementList[i]) {
           elementList[i].style.display = 'flex';
       }
@@ -179,7 +179,7 @@ Customizable.addEventListener("click", () => {
 Stockless.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3133; i++) { 
+    for (let i = 0; i < 3160; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -237,7 +237,7 @@ Stockless.addEventListener("click", () => {
 GlowingSights.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3133; i++) { 
+    for (let i = 0; i < 3160; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -271,7 +271,7 @@ GlowingSights.addEventListener("click", () => {
 GlowingItems.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3133; i++) { 
+    for (let i = 0; i < 3160; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -395,7 +395,7 @@ GlowingItems.addEventListener("click", () => {
 Misc.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3133; i++) { 
+    for (let i = 0; i < 3160; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -435,7 +435,7 @@ Misc.addEventListener("click", () => {
 AK47.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3133; i++) { 
+    for (let i = 0; i < 3160; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -609,7 +609,7 @@ AK47.addEventListener("click", () => {
 Bolties.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3133; i++) { 
+    for (let i = 0; i < 3160; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -652,7 +652,7 @@ Bolties.addEventListener("click", () => {
 Boneclub.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3133; i++) { 
+    for (let i = 0; i < 3160; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -676,7 +676,7 @@ Boneclub.addEventListener("click", () => {
 Boneknife.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3133; i++) { 
+    for (let i = 0; i < 3160; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -698,7 +698,7 @@ Boneknife.addEventListener("click", () => {
 CombatKnife.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3133; i++) { 
+    for (let i = 0; i < 3160; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -726,7 +726,7 @@ CombatKnife.addEventListener("click", () => {
 CrossBow.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3133; i++) { 
+    for (let i = 0; i < 3160; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -801,7 +801,7 @@ CrossBow.addEventListener("click", () => {
 SMG.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3133; i++) { 
+    for (let i = 0; i < 3160; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -820,7 +820,7 @@ SMG.addEventListener("click", () => {
 DB.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3133; i++) { 
+    for (let i = 0; i < 3160; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -849,7 +849,7 @@ DB.addEventListener("click", () => {
 EOKA.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3133; i++) { 
+    for (let i = 0; i < 3160; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -877,7 +877,7 @@ EOKA.addEventListener("click", () => {
 Grenade.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3133; i++) { 
+    for (let i = 0; i < 3160; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -895,7 +895,7 @@ Grenade.addEventListener("click", () => {
 Bow.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3133; i++) { 
+    for (let i = 0; i < 3160; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -957,7 +957,7 @@ Bow.addEventListener("click", () => {
 L96.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3133; i++) { 
+    for (let i = 0; i < 3160; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -981,7 +981,7 @@ L96.addEventListener("click", () => {
 LR300.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3133; i++) { 
+    for (let i = 0; i < 3160; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -1058,7 +1058,7 @@ LR300.addEventListener("click", () => {
 LongSword.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3133; i++) { 
+    for (let i = 0; i < 3160; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -1084,7 +1084,7 @@ let searchedItems = 0;
       const value = e.target.value.toLowerCase()
       
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3133; i++) { 
+        for (let i = 0; i < 3160; i++) { 
 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
@@ -1104,7 +1104,7 @@ let searchedItems = 0;
     MP5A4.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3133; i++) { 
+        for (let i = 0; i < 3160; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
