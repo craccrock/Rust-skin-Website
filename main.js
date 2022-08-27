@@ -61,18 +61,21 @@ app.listen(port, () => console.log(`running on http://localhost:${port}`)
 
 
 
-async function bababoey() {
+async function newData() {
 let apiLooped = await axios.get(apiPoint)
 let finalResults = await apiLooped.data.data
+console.log("new data fetched ")
 
 
-for (let i = 0; i <= 3160; i++) {
+for (let i = 0; i <= 3223; i++) {
   await client.json.set(`noderedis:skins:${i}`, "$", finalResults[i]);
 }
 }
 
 
-bababoey()
+
+setInterval(newData, 1000 * 60 * 60 * 2);
+
 
 async function getData(){
 

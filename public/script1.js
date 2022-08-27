@@ -46,6 +46,82 @@ const userCardContainer = document.querySelector("[data-user-cards-container]")
 const loader = document.querySelector('.loader')
 const footer = document.querySelector("[footer-footer]")
 const MP5A4 = document.querySelector("[MP5A4]")
+const M249 = document.querySelector("[M249]")
+const M39 = document.querySelector("[M39]")
+const PUMPY = document.querySelector("[PUMPY]")
+const PYTHON = document.querySelector("[PYTHON]")
+const REVO = document.querySelector("[REVO]")
+const TOMMY = document.querySelector("[TOMMY]")
+const PIPE = document.querySelector("[PIPE]")
+const WOODDOOR = document.querySelector("[WOODDOOR]")
+const DOUBLEWOODDOOR = document.querySelector("[DOUBLEWOODDOOR]")
+const SMALLBOX = document.querySelector("[SMALLBOX]")
+const WATERP = document.querySelector("[WATERP]")
+const VENDING = document.querySelector("[VENDING]")
+const TABLE = document.querySelector("[TABLE]")
+const SLEEPINGB = document.querySelector("[SLEEPINGB]")
+const DOUBLEMETALDOOR = document.querySelector("[DOUBLEMETALDOOR]")
+const METALDOOR = document.querySelector("[METALDOOR]")
+const SAR = document.querySelector("[SAR]")
+const SANDBAG = document.querySelector("[SANDBAG]")
+const FURNACE = document.querySelector("[FURNACE]")
+const FRIDGE = document.querySelector("[FRIDGE]")
+const CONCRETE = document.querySelector("[CONCRETE]")
+const ARMOUREDDOOR = document.querySelector("[ARMOUREDDOOR]")
+const ARMOUREDDOUBLE= document.querySelector("[ARMOUREDDOUBLE]")
+const BEARSKIN = document.querySelector("[BEARSKIN]")
+const LARGEWOODBOX = document.querySelector("[LARGEWOODBOX]")
+const BONEHELM= document.querySelector("[BONEHELM]")
+const BUCKETHAT= document.querySelector("[BUCKETHAT]")
+const BANDANA= document.querySelector("[BANDANA]")
+const CAP = document.querySelector("[CAP]")
+const BEANIE = document.querySelector("[BEANIE]")
+const BOONIE = document.querySelector("[BOONIE]")
+const BOOTS = document.querySelector("[BOOTS]")
+const BURLAPHEAD = document.querySelector("[BURLAPHEAD]")
+const BURLAPSHIRT= document.querySelector("[BURLAPSHIRT]")
+const BURLAPSHOES= document.querySelector("[BURLAPSHOES]")
+const BURLAPTROUSERS= document.querySelector("[BURLAPTROUSERS]")
+const COFFEEHELM= document.querySelector("[COFFEEHELM]")
+const HIDEBOOTS= document.querySelector("[HIDEBOOTS]")
+const HIDEHALTER= document.querySelector("[HIDEHALTER]")
+const HIDEPANTS= document.querySelector("[HIDEPANTS]")
+const HIDEPONCHO= document.querySelector("[HIDEPONCHO]")
+const HIDESKIRT= document.querySelector("[HIDESKIRT]")
+const HIDEVEST= document.querySelector("[HIDEVEST]")
+const HOODIE= document.querySelector("[HOODIE]")
+const BALACLAVA= document.querySelector("[BALACLAVA]")
+const JACKET= document.querySelector("[JACKET]")
+const LEATHERGLOVE= document.querySelector("[LEATHERGLOVE]")
+const LONGSLEEVE= document.querySelector("[LONGSLEEVE]")
+const METALCHESTPLATE= document.querySelector("[METALCHESTPLATE]")
+const METALFACEMASK = document.querySelector("[METALFACEMASK]")
+const MINERSHAT= document.querySelector("[MINERSHAT]")
+const PANTS= document.querySelector("[PANTS]")
+const RIOTHELM= document.querySelector("[RIOTHELM]")
+const ROADSIGNVEST= document.querySelector("[ROADSIGNVEST]")
+const ROADSIGNKILT= document.querySelector("[ROADSIGNKILT]")
+const ROADSIGNGLOVES = document.querySelector("[ROADSIGNGLOVES]")
+const SHIRT = document.querySelector("[SHIRT]")
+const SHORTS = document.querySelector("[SHORTS]")
+const SNOWJACKET = document.querySelector("[SNOWJACKET]")
+const TSHIRT = document.querySelector("[TSHIRT]")
+const TANKTOP = document.querySelector("[TANKTOP]")
+const REACTIVETARGET = document.querySelector("[REACTIVETARGET]")
+const RUG= document.querySelector("[RUG]")
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 function init() {
@@ -144,7 +220,7 @@ allSkinsButton.addEventListener("click", () => {
 Customizable.addEventListener("click", () => {
     const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
     form.addEventListener('submit', () => {
-      for (let i = 0; i < 3160; i++) { 
+      for (let i = 0; i < 3224; i++) { 
         if (elementList[i]) {
           elementList[i].style.display = 'flex';
       }
@@ -179,13 +255,14 @@ Customizable.addEventListener("click", () => {
 Stockless.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3160; i++) { 
+    for (let i = 0; i < 3224; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
   }
     skins.forEach(skin => {
     const isVisible = skin.name.includes("OPS SAR") 
+    || skin.name.includes("Jungle Fighter LR-300 Stockless") 
     || skin.name.includes("Cardboard AR") 
     || skin.name.includes("Monument Memories AR") 
     || skin.name.includes("Rainbow AR") 
@@ -237,7 +314,7 @@ Stockless.addEventListener("click", () => {
 GlowingSights.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3160; i++) { 
+    for (let i = 0; i < 3224; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -271,7 +348,7 @@ GlowingSights.addEventListener("click", () => {
 GlowingItems.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3160; i++) { 
+    for (let i = 0; i < 3224; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -339,7 +416,6 @@ GlowingItems.addEventListener("click", () => {
     || skin.name.includes("Dead Moroz") 
     || skin.name.includes("Glacial Visage Small Box") 
     || skin.name.includes("Corrupted Garage Door") 
-    || skin.name.includes("Small Box from Hell") 
     || skin.name.includes("Glacial Visage Metal Door") 
     || skin.name.includes("Neon Scrap Storage") 
     || skin.name.includes("Concert Curtains") 
@@ -395,7 +471,7 @@ GlowingItems.addEventListener("click", () => {
 Misc.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3160; i++) { 
+    for (let i = 0; i < 3224; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -435,7 +511,7 @@ Misc.addEventListener("click", () => {
 AK47.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3160; i++) { 
+    for (let i = 0; i < 3224; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -609,7 +685,7 @@ AK47.addEventListener("click", () => {
 Bolties.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3160; i++) { 
+    for (let i = 0; i < 3224; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -652,7 +728,7 @@ Bolties.addEventListener("click", () => {
 Boneclub.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3160; i++) { 
+    for (let i = 0; i < 3224; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -676,7 +752,7 @@ Boneclub.addEventListener("click", () => {
 Boneknife.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3160; i++) { 
+    for (let i = 0; i < 3224; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -698,7 +774,7 @@ Boneknife.addEventListener("click", () => {
 CombatKnife.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3160; i++) { 
+    for (let i = 0; i < 3224; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -726,7 +802,7 @@ CombatKnife.addEventListener("click", () => {
 CrossBow.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3160; i++) { 
+    for (let i = 0; i < 3224; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -801,7 +877,7 @@ CrossBow.addEventListener("click", () => {
 SMG.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3160; i++) { 
+    for (let i = 0; i < 3224; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -820,7 +896,7 @@ SMG.addEventListener("click", () => {
 DB.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3160; i++) { 
+    for (let i = 0; i < 3224; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -835,7 +911,6 @@ DB.addEventListener("click", () => {
     || skin.name.includes("Hippie Blaster")
     || skin.name.includes("Raider's Shotgun") 
     || skin.name.includes("Blunderbuss")
-    || skin.name.includes("Last Blast Twins")
     || skin.name.includes("Santa's Boomstick")
     || skin.name.includes("Military Boomstick") 
     || skin.name.includes("Heat Double Shotgun")
@@ -849,7 +924,7 @@ DB.addEventListener("click", () => {
 EOKA.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3160; i++) { 
+    for (let i = 0; i < 3224; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -877,7 +952,7 @@ EOKA.addEventListener("click", () => {
 Grenade.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3160; i++) { 
+    for (let i = 0; i < 3224; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -895,7 +970,7 @@ Grenade.addEventListener("click", () => {
 Bow.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3160; i++) { 
+    for (let i = 0; i < 3224; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -957,7 +1032,7 @@ Bow.addEventListener("click", () => {
 L96.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3160; i++) { 
+    for (let i = 0; i < 3224; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -981,7 +1056,7 @@ L96.addEventListener("click", () => {
 LR300.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3160; i++) { 
+    for (let i = 0; i < 3224; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -1058,7 +1133,7 @@ LR300.addEventListener("click", () => {
 LongSword.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3160; i++) { 
+    for (let i = 0; i < 3224; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -1084,7 +1159,7 @@ let searchedItems = 0;
       const value = e.target.value.toLowerCase()
       
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3160; i++) { 
+        for (let i = 0; i < 3224; i++) { 
 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
@@ -1104,13 +1179,15 @@ let searchedItems = 0;
     MP5A4.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3160; i++) { 
+        for (let i = 0; i < 3224; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
       }
+
         skins.forEach(skin => {
-        const isVisible = skin.name.includes("Digital Carbon MP5") 
+        
+        const isVisible = skin.name.includes("Digital Carbon MP5")
         || skin.name.includes("Zebra MP5") 
         || skin.name.includes("Berserker MP5") 
         || skin.name.includes("Skullkiller MP5")
@@ -1131,7 +1208,7 @@ let searchedItems = 0;
         || skin.name.includes("Cold Hunter MP5") 
         || skin.name.includes("Arctic Wolf MP5")
         || skin.name.includes("Wasp MP5") 
-        // || skin.name.includes("Batteries Not Included")
+
         || skin.name.includes("Icarus MP5")
         || skin.name.includes("Valentine MP5") 
         || skin.name.includes("Phantom MP5")
@@ -1145,15 +1222,2532 @@ let searchedItems = 0;
         || skin.name.includes("Dead Fish MP5")
         || skin.name.includes("Urban Camo MP5") 
         || skin.name.includes("Nomad MP5") 
-        || skin.name.includes("Wild Flame MP5")    
-        // skin.element.classList.toggle("show", isVisible)
+        && skin.name.includes("Wild Flame MP5")
+
         skin.element.classList.toggle("hide", !isVisible)
         })
       })
     })
 
 
+  M249.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
 
+        skins.forEach(skin => {
+        
+        const isVisible = skin.name.includes("Black Gold M249")
+        || skin.name.includes("Glister M249") 
+        || skin.name.includes("Rainbow Pony M249") 
+        || skin.name.includes("Toy Machine Gun")
+        || skin.name.includes("Poseidon LMG") 
+        || skin.name.includes("No Mercy LMG")
+        || skin.name.includes("CHROMA FLAIR")
+        || skin.name.includes("Love Machine") 
+        || skin.name.includes("Playmaker M249")
+        || skin.name.includes("The Beast M249") 
+        || skin.name.includes("Bombshell M249") 
+        || skin.name.includes("Guerilla M249")
+
+        skin.element.classList.toggle("hide", !isVisible)
+        
+       
+        
+        
+        })
+      })
+    })
+
+
+    M39.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+
+        skins.forEach(skin => {
+        
+        const isVisible = skin.name.includes("Bombshell M39")
+        || skin.name.includes("Tempered M39") 
+        || skin.name.includes("Metalhead M39") 
+        || skin.name.includes("Devourer M39")
+        || skin.name.includes("Ornate M39") 
+        || skin.name.includes("Desert Warrior")
+
+
+        skin.element.classList.toggle("hide", !isVisible)
+        })
+      })
+    })
+
+    PUMPY.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+
+        skins.forEach(skin => {
+        
+        const isVisible = skin.name.includes("Toxic Wolf Pump Shotgun")
+        || skin.name.includes("Lightweight Pump Shotgun") 
+        // || skin.name.includes("Pegasus") 
+        || skin.name.includes("Troll Daddy Pump Shotgun")
+        || skin.name.includes("Spitfire Pump Shotgun") 
+        || skin.name.includes("Metalhead Pump Shotgun")
+        || skin.name.includes("Problem Solver Stick")
+        || skin.name.includes("Loot Leader Shotgun") 
+        || skin.name.includes("Royalty Pump Shotgun") 
+        || skin.name.includes("Dead Ringer Pump Shotgunn")
+        || skin.name.includes("Psychosis Pump") 
+        || skin.name.includes("Sweet Shot")
+        || skin.name.includes("Head Hunter Shotgun")
+        || skin.name.includes("Rebel Shotgun") 
+        || skin.name.includes("Conquerer Shotgun") 
+        || skin.name.includes("Modern Knight Shotgun")
+        || skin.name.includes("Frostfire Shotgun") 
+        || skin.name.includes("Polymer Pump Shotgun")
+        || skin.name.includes("The Swampmaster")
+        || skin.name.includes("Urban Afterburn Pump Shotgun") 
+        || skin.name.includes("Native Gold") 
+        || skin.name.includes("Native Yellow")
+        || skin.name.includes("The Billy Baroo") 
+        || skin.name.includes("Tank Pump Shotgun")
+        || skin.name.includes("Chieftain Pump Shotgun")
+
+        skin.element.classList.toggle("hide", !isVisible)
+        })
+      })
+    })
+
+
+   PYTHON.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+
+        skins.forEach(skin => {
+        
+        const isVisible = skin.name.includes("Venomous Shot")
+        || skin.name.includes("Dragon's Spit")
+        || skin.name.includes("Slaughter")
+        || skin.name.includes("Python")
+        || skin.name.includes("python") 
+        || skin.name.includes("PYTHON") 
+        skin.element.classList.toggle("hide", !isVisible)
+        })
+      })
+    })
+
+    REVO.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+
+        skins.forEach(skin => {
+        
+        const isVisible = skin.name.includes("Nuke Pistol")
+        || skin.name.includes("Party Pooper")
+        || skin.name.includes("Death Viper")
+        || skin.name.includes("Pink Grunge")
+        || skin.name.includes("Revolver") 
+        || skin.name.includes("revolver") 
+        skin.element.classList.toggle("hide", !isVisible)
+        })
+      })
+    })
+
+
+   TOMMY.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+
+        skins.forEach(skin => {
+        
+        const isVisible = skin.name.includes("Santa's Little Helper")
+        || skin.name.includes("Tommy")
+        || skin.name.includes("Thompson")
+
+        skin.element.classList.toggle("hide", !isVisible)
+        })
+      })
+    })
+
+    PIPE.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+
+        skins.forEach(skin => {
+        
+        const isVisible = skin.name.includes("Tiger Pipe")
+        || skin.name.includes("waterpipe")
+        || skin.name.includes("Toy Shotgun")
+        || skin.name.includes("Garden Pipe Shotgun")
+        || skin.name.includes("Pirate Pipe") 
+        || skin.name.includes("Industrial Pipe Shotgun") 
+        || skin.name.includes("KOI")
+        || skin.name.includes("Cannibal Tribe Musket")
+        || skin.name.includes("Blacksmith's Pipe")
+        || skin.name.includes("Apostate") 
+        || skin.name.includes("Junkyard Pipe") 
+        || skin.name.includes("Sea Hunter Shotgun")
+        || skin.name.includes("Twisted Pipe")
+        || skin.name.includes("Flaming Pipe")
+        || skin.name.includes("Luxuria") 
+        || skin.name.includes("Riveted Pipe Shotgun") 
+        || skin.name.includes("Rustpunk Scattergun")
+        || skin.name.includes("The Peace Pipe")
+        skin.element.classList.toggle("hide", !isVisible)
+
+        })
+      })
+    })
+
+
+
+    WOODDOOR.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const isVisible = skin.name.includes("Molotov Wooden Door")
+        || skin.name.includes("Dead Souls Wooden Door")
+        || skin.name.includes("Friendly Wooden Door")
+        || skin.name.includes("Smouldering Door")
+        || skin.name.includes("Spraycan Wooden Door") 
+        || skin.name.includes("Danger Zone Wooden Door") 
+        || skin.name.includes("Brothers of Fire Wooden Door")
+        || skin.name.includes("Honest Wooden Door")
+        || skin.name.includes("Panamanian Wooden Door")
+        || skin.name.includes("Ice Door") 
+        || skin.name.includes("Evolved Wooden Door") 
+        || skin.name.includes("Military Storage Wooden Door")
+        || skin.name.includes("Eye Scream Door")
+        || skin.name.includes("Weather Wood Door")
+        || skin.name.includes("The Hunter and his Dog") 
+        || skin.name.includes("Big Dreams Door") 
+        || skin.name.includes("Wolf Den Wooden Door")
+        || skin.name.includes("Eco Door")
+        || skin.name.includes("Pixel Wooden Door")
+        || skin.name.includes("Midgard Door") 
+        || skin.name.includes("Jinx Wooden Door") 
+        || skin.name.includes("Pirate Hut Door")
+        || skin.name.includes("The Growth Of Evil")
+        || skin.name.includes("Archer Door")
+        || skin.name.includes("Hut Door") 
+        || skin.name.includes("Cobalt Wooden Door") 
+        || skin.name.includes("Hell-o-ween Wooden Door")
+        || skin.name.includes("Alchemist Door")
+        || skin.name.includes("Artisan Wooden Door")
+        || skin.name.includes("Cursed Wooden Door") 
+        || skin.name.includes("Viking Door") 
+        || skin.name.includes("Pirate Wooden Door")
+        || skin.name.includes("Metal Tree Door")
+        || skin.name.includes("Vandal's Peace Door")
+        || skin.name.includes("Fortified Castle Door") 
+        || skin.name.includes("Bone Collector Door") 
+        || skin.name.includes("Dreamcatcher Door")
+        || skin.name.includes("Wisdom Door")
+        || skin.name.includes("Forgotten Temple Door")
+        || skin.name.includes("Red Decorative Wood Door") 
+        || skin.name.includes("Barricaded Door") 
+        || skin.name.includes("Sacrificial door")
+        || skin.name.includes("Ornate Wooden Door")
+        || skin.name.includes("Lone Wolf Door")
+        || skin.name.includes("Trick Or Treat Door") 
+        || skin.name.includes("Black Decorative Wood Door") 
+        || skin.name.includes("Wise Door")
+        || skin.name.includes("Riveted Wooden Door")
+        || skin.name.includes("Bleached Ebony Door")
+        || skin.name.includes("Porthole Door") 
+        || skin.name.includes("Christmas Tree Door") 
+        || skin.name.includes("Old Heavy Wooden Door")
+        || skin.name.includes("Door to Heaven")
+        skin.element.classList.toggle("hide", !isVisible)
+
+        })
+      })
+    })
+
+
+    DOUBLEWOODDOOR.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const isVisible = skin.name.includes("Fireflies Double Wooden Doors")
+        || skin.name.includes("Rainbow Doors")
+        || skin.name.includes("Pirate Ship Wooden Double Door")
+        || skin.name.includes("Wind King Wooden Double Door")
+        skin.element.classList.toggle("hide", !isVisible)
+
+        })
+      })
+    })
+
+
+    SMALLBOX.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const isVisible = skin.name.includes("Smouldering Box")
+        || skin.name.includes("Neon Hearts Box")
+        || skin.name.includes("Small Tiger Box")
+        || skin.name.includes("Pizza Box Storage")
+        || skin.name.includes("Festive Stickered Storage Box")
+        || skin.name.includes("Molten Visage Small Box")
+        || skin.name.includes("Desert Supply Box")
+        || skin.name.includes("Small Box")
+        || skin.name.includes("Outer Planets Small Storage")
+        || skin.name.includes("Bone Cage Box")
+        || skin.name.includes("Woodenstein")
+        || skin.name.includes("Little Cloud Box")
+        || skin.name.includes("Sea Supply Box")
+        || skin.name.includes("Ox Box")
+        || skin.name.includes("Cobalt Supply Box")
+        || skin.name.includes("Organic Berry Box")
+        || skin.name.includes("Stickered Toy Car")
+        || skin.name.includes("MILTAN Storage Box")
+        || skin.name.includes("GMO Free Seed Box")
+        || skin.name.includes("High Voltage Box")
+        || skin.name.includes("Oil Rig Storage Box")
+        || skin.name.includes("Toxic Hazard Box")
+        || skin.name.includes("Army Supply Box")
+        || skin.name.includes("Cargo Heli Storage")
+        || skin.name.includes("Duelist's Wood Box")
+        || skin.name.includes("Treasure Crate")
+        || skin.name.includes("Small Medical Box")
+
+        || skin.name.includes("Seed Box")
+        || skin.name.includes("Medieval Small Wooden Box")
+        || skin.name.includes("First Aid Box")
+
+
+        skin.element.classList.toggle("hide", !isVisible)
+
+        })
+      })
+    })
+
+
+    WATERP.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const isVisible = skin.name.includes("Distillery")
+        || skin.name.includes("Radioactive Water Purifier")
+        || skin.name.includes("Wooden Purifier")
+        skin.element.classList.toggle("hide", !isVisible)
+
+        })
+      })
+    })
+
+    VENDING.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const isVisible = skin.name.includes("Vending Machine")
+        || skin.name.includes("Gingerbread Candy Shop")
+        || skin.name.includes("Oxums Gas Pump")
+        || skin.name.includes("Cobalt Coffee")
+        || skin.name.includes("Music Box")
+        || skin.name.includes("Cobalt Ice Cream")
+        || skin.name.includes("RustyCola Machine")
+        skin.element.classList.toggle("hide", !isVisible)
+        })
+      })
+    })
+
+    TABLE.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const isVisible = skin.name.includes("Antique Dining Table")
+        || skin.name.includes("Off The Grid")
+        || skin.name.includes("Parquet Table")
+
+        skin.element.classList.toggle("hide", !isVisible)
+        })
+      })
+    })
+
+    SLEEPINGB.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const isVisible = skin.name.includes("Fish Bag")
+        || skin.name.includes("Immortal Angel Bag")
+        || skin.name.includes("Pitstop Bag")
+        || skin.name.includes("Desert Scout")
+        || skin.name.includes("Tea Bag")
+        || skin.name.includes("Winter Scout")
+        || skin.name.includes("Forest Camo Bag")
+        || skin.name.includes("Salvaged Hazmat Bag")
+        || skin.name.includes("Santa's Bag")
+        || skin.name.includes("Comfortable Coffin")
+        || skin.name.includes("Comfortable Cardboard")
+        || skin.name.includes("Frostwulf Bed")
+        || skin.name.includes("Cozy Bunny Bag")
+        || skin.name.includes("Regeneration Program")
+        || skin.name.includes("Seasons Beatings")
+        || skin.name.includes("Sleepover Bag")
+        || skin.name.includes("Captain's Bed")
+        || skin.name.includes("Crime Bag")
+        || skin.name.includes("Survivor Bag")
+        || skin.name.includes("Spooky Pumpkin Bed")
+        || skin.name.includes("Nuke Bag")
+        || skin.name.includes("Brony Bag")
+        || skin.name.includes("Seasons Beatings")
+        || skin.name.includes("Cannibal Survival Bag")
+        || skin.name.includes("Sleep Catcher")
+        || skin.name.includes("Cobalt Survival Bag")
+        || skin.name.includes("Freefolk Bedroll")
+        || skin.name.includes("Star Bedroll")
+        || skin.name.includes("Christmas Holiday Bag")
+        || skin.name.includes("Caravanner Bedroll")
+        || skin.name.includes("Ranger Bedroll")
+        || skin.name.includes("Undead Bedroll")
+        || skin.name.includes("Bear Bag")
+        || skin.name.includes("Aston Christmas")
+        || skin.name.includes("Christmas Bag")
+        || skin.name.includes("Freshly Dug Grave")
+        || skin.name.includes("Horror Bag")
+        || skin.name.includes("Sleeping Bag")
+        skin.element.classList.toggle("hide", !isVisible)
+        })
+      })
+    })
+
+    DOUBLEMETALDOOR.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const isVisible = skin.name.includes("Gingerbread Double Door")
+        || skin.name.includes("Neon Pumpkin Metal Double Door")
+        || skin.name.includes("Outer Planets Double Door")
+        || skin.name.includes("Old Subway Doors")
+        || skin.name.includes("Horsemen of the Apocalypse Door")
+        || skin.name.includes("Lab Elevator Double Door")
+        || skin.name.includes("Pumpkin Jail Double Door")
+        || skin.name.includes("Pixel Metal Double Door ")
+        || skin.name.includes("Toxic Double Door")
+        || skin.name.includes("Eviction Double Door")
+        || skin.name.includes("Red Barn Double Door")
+        || skin.name.includes("Doors to a Fairy Tale")
+        || skin.name.includes("Shippy & Friends Double Door")
+        || skin.name.includes("Earblaster Doors")
+        || skin.name.includes("Howling Double Door")
+        || skin.name.includes("Double Door from Hell")
+        || skin.name.includes("Green Labs Door")
+        || skin.name.includes("Oil Rig Double Door")
+        || skin.name.includes("Monster Double Door")
+        || skin.name.includes("Jack Sheet Metal Double Door")
+        || skin.name.includes("Military Double Door")
+        || skin.name.includes("Ambulance Double Door")
+        || skin.name.includes("Global Freight Double Door")
+        skin.element.classList.toggle("hide", !isVisible)
+        })
+      })
+    })
+
+   METALDOOR.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const isVisible = skin.name.includes("Fire Phoenix Metal Door")
+        || skin.name.includes("Toxic Dragon Metal Door")
+        || skin.name.includes("Fireflies Metal Door")
+        || skin.name.includes("Blueprint Metal Door")
+        || skin.name.includes("Evil Heart Door")
+        || skin.name.includes("Art Deco Door")
+        || skin.name.includes("Chocolate Sheet Metal Door")
+        || skin.name.includes("Spraycan Sheet Metal Door")
+        || skin.name.includes("Cheese Sheet Metal Door")
+        || skin.name.includes("Gold Lunar Tiger Door")
+        || skin.name.includes("Jade Lunar Tiger Door")
+        || skin.name.includes("Ice Sheet Metal Door")
+        || skin.name.includes("Quarantine Sheet Metal Door")
+        || skin.name.includes("Viking Sheet Metal Door")
+        || skin.name.includes("Ghostly Flame Door")
+        || skin.name.includes("Chain Gate")
+        || skin.name.includes("Bombing Sheet Metal Door")
+        || skin.name.includes("Charitable Rust 2021 Door")
+        || skin.name.includes("Puzzle Sheet Metal Door")
+        || skin.name.includes("House of Horrors")
+        || skin.name.includes("No Mercy Sheet Metal Door")
+        || skin.name.includes("Sheet Metal Door from Hell")
+        || skin.name.includes("Rainbow Pony Metal Door")
+        || skin.name.includes("Going Deep Sheet Metal Door")
+        || skin.name.includes("Yellow Submarine Door")
+        || skin.name.includes("Neon Cactus Metal Door")
+        || skin.name.includes("Death Metal Door")
+        || skin.name.includes("Control Room Door")
+        || skin.name.includes("Domino Door")
+        || skin.name.includes("Outer Planets Metal Door")
+        || skin.name.includes("Hypnotic Steel Door")
+        || skin.name.includes("Dragon Horn Door")
+        || skin.name.includes("King Metal Door")
+        || skin.name.includes("Space Foil Door")
+        || skin.name.includes("Glacial Visage Metal Door")
+        || skin.name.includes("Lovers Sheet Metal Door")
+        || skin.name.includes("Corrupted Metal Door")
+        || skin.name.includes("Metal Monster Door")
+        || skin.name.includes("Lunar Ox Door")
+        || skin.name.includes("Santa's Door")
+        || skin.name.includes("Freedom Door")
+        || skin.name.includes("Melted Blast Door")
+        || skin.name.includes("Halloween House Door")
+        || skin.name.includes("Eagle Sheet Metal Door")
+        || skin.name.includes("Molten Visage Metal Door")
+        || skin.name.includes("Monitored Door")
+        || skin.name.includes("Wealthy Farmer Door")
+        || skin.name.includes("Ancient Lore Door")
+        || skin.name.includes("Mechanic Door")
+        || skin.name.includes("Riveted Summer Door")
+        || skin.name.includes("MeowMeow Sheet Metal Door")
+        || skin.name.includes("Hieroglyphic Metal Door")
+        || skin.name.includes("Happy Rabbit Door")
+        || skin.name.includes("Pixel Metal Door")
+        || skin.name.includes("Old Fighters Door")
+        || skin.name.includes("Guardians of the Heart")
+        || skin.name.includes("Bio Integrity Door")
+        || skin.name.includes("Mummy Door")
+        || skin.name.includes("Winged Guardian Door")
+        || skin.name.includes("Musical Notes Door")
+        || skin.name.includes("Gingerbread Door")
+        || skin.name.includes("Bull Rage Door")
+        || skin.name.includes("Year of the Rat Door")
+        || skin.name.includes("Midnight Door")
+        || skin.name.includes("Excavator Door")
+        || skin.name.includes("Ace Door")
+        || skin.name.includes("Pirate Treasures Door")
+        || skin.name.includes("Shippy & Friends Door")
+        || skin.name.includes("Wild Owl Door")
+        || skin.name.includes("El Dorado Door")
+        || skin.name.includes("Rocket Door")
+        || skin.name.includes("Sunrise Door")  
+        || skin.name.includes("Mosaic Door")
+        || skin.name.includes("Broken Mirror Door")
+        || skin.name.includes("Royal Door")
+        || skin.name.includes("Oil Rig Door")
+        || skin.name.includes("Deep Sea Door")
+        || skin.name.includes("Fallen Emperor Door")
+        || skin.name.includes("Dead Valentine Door")
+        || skin.name.includes("Evil Within")
+        || skin.name.includes("Egiptu Door")
+        || skin.name.includes("Snowman Door")
+        || skin.name.includes("Santa's Front Door")
+        || skin.name.includes("Power Door")
+        || skin.name.includes("Dreamer's Door")
+        || skin.name.includes("Lost Hope Door")
+        || skin.name.includes("Labyrinth Door")
+        || skin.name.includes("Potty Door")
+        || skin.name.includes("Door of Flesh")
+        || skin.name.includes("Quarantine Area")  
+        || skin.name.includes("Emergency Exit Door")
+        || skin.name.includes("Guardian Door")
+        || skin.name.includes("Toxic Door")
+        || skin.name.includes("Divinity Door")
+        || skin.name.includes("Ancient Totem Door")
+        || skin.name.includes("Night Sky Door")
+        || skin.name.includes("Flower Power Door")
+        || skin.name.includes("Defender Door")
+        || skin.name.includes("Bandit Sheet Metal Door")
+        || skin.name.includes("Corinthian Door")
+        || skin.name.includes("Pug Tower Door")
+        || skin.name.includes("Trophy Pirate Door")
+        || skin.name.includes("Red Skull Door")
+        || skin.name.includes("Test Room Door")
+        || skin.name.includes("Caution Door")  
+        || skin.name.includes("Chinook Fuselage Door")
+        || skin.name.includes("Meltdown Metal Door")
+        || skin.name.includes("Boat House Door")
+        || skin.name.includes("Steel Pirate Door")
+        || skin.name.includes("Railway Door")
+        || skin.name.includes("Artist's Door")
+        || skin.name.includes("Urban Night Door")
+        || skin.name.includes("Aztec Gold Door")
+        || skin.name.includes("Blacksmith's Door")
+        || skin.name.includes("Submarine Door")
+        || skin.name.includes("Scrap Robot Door")
+        || skin.name.includes("Red Skull Door")
+        || skin.name.includes("Brutal Door")
+        || skin.name.includes("Lost Treasure Door")
+        || skin.name.includes("Engineer's Door")  
+        || skin.name.includes("Fretwork Door")
+        || skin.name.includes("Dragon Relic Door")
+        || skin.name.includes("Lost Metal Door")
+        || skin.name.includes("Eisensheet Door")
+        || skin.name.includes("Death Crypt Door")
+        || skin.name.includes("Aztec Door")
+        || skin.name.includes("Antique Metal Door")
+        || skin.name.includes("Halloween Door")
+        || skin.name.includes("KEEP OUT")
+        || skin.name.includes("Dead Room Door")
+        || skin.name.includes("Salvaged APC Door")
+        || skin.name.includes("Hideout Door")
+        || skin.name.includes("Scrap Tanker Door")
+        || skin.name.includes("Blue Puzzle Door")
+        || skin.name.includes("Brass Sentinel Door")  
+        || skin.name.includes("Polar Station Door")
+        || skin.name.includes("Salvation Door")
+        || skin.name.includes("Metalshop Scrap Door")
+        || skin.name.includes("Quarantine Door")
+        || skin.name.includes("Military Vehicle Door")
+        || skin.name.includes("Truck Door")
+        || skin.name.includes("Roadsign Door")
+        || skin.name.includes("Jeweler's Security Door")
+        || skin.name.includes("Grey Fire Door")
+        || skin.name.includes("Door to Death")
+        || skin.name.includes("Laboratory Door")
+        || skin.name.includes("Locomotive Door")
+        || skin.name.includes("Fire Truck Door")
+        || skin.name.includes("Ambulance Door")
+        || skin.name.includes("School Bus Door")  
+        || skin.name.includes("Shipping Container Door")
+        || skin.name.includes("Doomsday Door")
+        || skin.name.includes("Metal Shutter Door")
+        || skin.name.includes("Recycled Garage Door")
+        || skin.name.includes("Hazard Metal Door")
+        || skin.name.includes("Prison Door")
+        || skin.name.includes("Army Metal Door")
+        skin.element.classList.toggle("hide", !isVisible)
+        })
+      })
+    })
+
+  // SAR.addEventListener("click", () => {
+  //     const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+  //     form.addEventListener('submit', () => {
+  //       for (let i = 0; i < 3224; i++) { 
+  //         if (elementList[i]) {
+  //           elementList[i].style.display = 'flex';
+  //       }
+  //     }
+  //       skins.forEach(skin => {
+  //       const isVisible = skin.name.includes("SAR")
+  //       skin.element.classList.toggle("hide", !isVisible)
+  //       })
+  //     })
+  //   })
+
+    SAR.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("SAR")
+        || skin.name.includes("Azul Sar")
+        || skin.name.includes("Cupidon")
+        || skin.name.includes("Blood Dragon Rifle")
+        || skin.name.includes("To Hell And Back")
+        || skin.name.includes("Hazard Semi Auto Rifle")
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+
+    SANDBAG.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const isVisible = skin.name.includes("Grandmother's Gift Barricade")
+        skin.element.classList.toggle("hide", !isVisible)
+        })
+      })
+    })
+  
+    FURNACE.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const isVisible = skin.name.includes("Primordial Forge")
+        || skin.name.includes("Spring Carrot House")
+        || skin.name.includes("Silent Night")
+        || skin.name.includes("Bee Hive")
+        || skin.name.includes("Hell Forge")
+        || skin.name.includes("Last Friend")
+        || skin.name.includes("Home Sweet Home")
+        || skin.name.includes("Furious Volcano")
+        || skin.name.includes("Personal Lighthouse")
+        || skin.name.includes("Iron Calamity")
+        || skin.name.includes("Soul Burner")
+        || skin.name.includes("Iron Forge")
+        || skin.name.includes("Snowboy")
+        || skin.name.includes("Furnace")
+
+
+        skin.element.classList.toggle("hide", !isVisible)
+        })
+      })
+    })
+
+    FRIDGE.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const isVisible = skin.name.includes("Fridge")
+        || skin.name.includes("Ice Cream Freezer")
+        || skin.name.includes("Portable Toilet")
+        || skin.name.includes("Victorian Food Vault")
+
+
+        skin.element.classList.toggle("hide", !isVisible)
+        })
+      })
+    })
+
+    CONCRETE.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const isVisible = skin.name.includes("Road Barrier")
+        || skin.name.includes("Metal Barricade")
+        || skin.name.includes("Military Barricade")
+        || skin.name.includes("Outpost Concrete Barricade")
+        || skin.name.includes("Railway Barricade")
+
+
+        skin.element.classList.toggle("hide", !isVisible)
+        })
+      })
+    })
+
+    
+
+    ARMOUREDDOOR.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const isVisible = skin.name.includes("Arctic Base Door")
+        || skin.name.includes("HellBunker Door")
+        || skin.name.includes("Mainframe Door ")
+        || skin.name.includes("Cargo Ship Security Door")
+        || skin.name.includes("Armored Door")
+        || skin.name.includes("Armored Scrapper Door")
+        || skin.name.includes("Armored Mason Door ")
+        || skin.name.includes("Hellfire Portal")
+        || skin.name.includes("Cobalt Graffiti Door")
+        || skin.name.includes("TacCom Security Door")
+        || skin.name.includes("Green Armored Container Door")
+        || skin.name.includes("Armored Vault Door")
+        || skin.name.includes("Safe Room Door")
+        || skin.name.includes("Armored Concrete")
+        || skin.name.includes("Armored Mason Door ")
+        || skin.name.includes("Clockwork Portal")
+        || skin.name.includes("No Escape")
+        // || skin.name.includes("High Voltage")
+        || skin.name.includes("Corroded Bronze Door")
+        || skin.name.includes("Armored Door")
+
+
+
+        skin.element.classList.toggle("hide", !isVisible)
+        })
+      })
+    })
+
+
+    ARMOUREDDOUBLE.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const isVisible = skin.name.includes("Outer Planets Armored Double Door")
+        || skin.name.includes("Christmas Bunker Double Door")
+        || skin.name.includes("Crypt Armored Double Door")
+        || skin.name.includes("Jester Armoured Double Door")
+        || skin.name.includes("Hell Walker Double Armored Door")
+
+        skin.element.classList.toggle("hide", !isVisible)
+        })
+      })
+    })
+
+
+    
+    BEARSKIN.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const isVisible = skin.name.includes("Werewolf Rug")
+        || skin.name.includes("Teddy Bear Rug")
+        || skin.name.includes("Panda Rug")
+        || skin.name.includes("Jester Armoured Double Door")
+        || skin.name.includes("Hell Walker Double Armored Door")
+
+        skin.element.classList.toggle("hide", !isVisible)
+        })
+      })
+    })
+
+        
+    LARGEWOODBOX.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const isVisible = skin.name.includes("Graffiti Meds Storage")
+        || skin.name.includes("Graffiti Boom Storage")
+        || skin.name.includes("Graffiti Scrap Storage")
+        || skin.name.includes("Graffiti Wood Storage")
+        || skin.name.includes("Graffiti Guns Storage")
+        || skin.name.includes("Graffiti Ammo Storage")
+        || skin.name.includes("Graffiti Component Storage")
+        || skin.name.includes("Graffiti Drop Storage")
+        || skin.name.includes("Graffiti Armor Storage")
+        || skin.name.includes("Graffiti Stone Storage")
+        || skin.name.includes("Graffiti Metal Storage")
+        || skin.name.includes("Graffiti Sulfur Storage")
+        || skin.name.includes("Smouldering Large Box")
+        || skin.name.includes("Scientific Scrap Storage")
+        || skin.name.includes("Scientific Wood Storage")
+        || skin.name.includes("Scientific Charcoal Storage")
+        || skin.name.includes("Easter Carrot Storage")
+        || skin.name.includes("Scientific Fuel Storage")
+        || skin.name.includes("Scientific Car Parts Storage")
+        || skin.name.includes("Scientific Components Storage")
+        || skin.name.includes("Scientific Electrical Storage")
+        || skin.name.includes("Scientific Metal Storage")
+        || skin.name.includes("Valentine's Box")
+        || skin.name.includes("Scientific Tools Storage")
+        || skin.name.includes("Scientific Medicine Storage")
+        || skin.name.includes("Large Tiger Box")
+        || skin.name.includes("Scientific Stone Storage")
+        || skin.name.includes("Scientific Armor Storage")
+        || skin.name.includes("Components Supply Container")
+        || skin.name.includes("Scientific Explosive Storage")
+        || skin.name.includes("Scientific Ammo Storage")
+        || skin.name.includes("Scientific Guns Storage")
+        || skin.name.includes("Charitable Rust 2021 Box")
+        || skin.name.includes("Armor Supply Container")
+        || skin.name.includes("Outer Planets Large Box")
+        || skin.name.includes("Resources Supply Container")
+        || skin.name.includes("Tools Supply Container")
+        || skin.name.includes("Skull Sarcophagus")
+        || skin.name.includes("Scientific Sulfur Storage")
+        || skin.name.includes("Neon Elec Storage")
+        || skin.name.includes("Neon Clothes Storage")
+        || skin.name.includes("Meds Supply Container")
+        || skin.name.includes("Neon Drop Box Storage")
+        || skin.name.includes("Neon Charcoal Storage")
+        || skin.name.includes("Neon Stone Storage")
+        || skin.name.includes("Neon Comps Storage")
+        || skin.name.includes("Neon Tools Storage")
+        || skin.name.includes("Ammo Supply Container")
+        || skin.name.includes("Guns Supply Container")
+        || skin.name.includes("Neon Armor Storage")
+        || skin.name.includes("Neon Wood Storage")
+        || skin.name.includes("Neon Sulfur Storage")
+        || skin.name.includes("Neon Frags Storage")
+        || skin.name.includes("Neon Ammo Storage")
+        || skin.name.includes("Neon Meds Storage")
+        || skin.name.includes("Steel Devil Box")
+        || skin.name.includes("Dragon Horn Box")
+        || skin.name.includes("Neon Boom Storage")
+        || skin.name.includes("Neon Ore Storage")
+        || skin.name.includes("Neon Food Storage")
+        || skin.name.includes("Neon Gun Storage")
+        || skin.name.includes("Neon Scrap Storage")
+        || skin.name.includes("Retrowave Large Box")
+        || skin.name.includes("Large Ox Box")
+        || skin.name.includes("Lost Soul Crate")
+        || skin.name.includes("Weather Large Wood Box")
+        || skin.name.includes("Fairy Tale Box")
+        || skin.name.includes("Trust In Rust 3 Box")
+        || skin.name.includes("Nuclear Box")
+        || skin.name.includes("Ghostly Flame Box")
+        || skin.name.includes("Spirit Board Box")
+        || skin.name.includes("Glacial Visage Large Box")
+        || skin.name.includes("XPOINT")
+        || skin.name.includes("Doodle Large Wooden Box")
+        || skin.name.includes("Nautical Storage Box")
+        || skin.name.includes("Tea Cargo Box")
+        || skin.name.includes("Reprocessing Box")
+        || skin.name.includes("Cargo Heli Large Box")
+        || skin.name.includes("Hieroglyphic Large Box")
+        || skin.name.includes("Mechanic Tool Box")
+        || skin.name.includes("Beach Crate")
+        || skin.name.includes("Large Stickered Toy Car")
+        || skin.name.includes("Supplies Box")
+        || skin.name.includes("Farming Storage Box")
+        || skin.name.includes("CCTV Storage")
+        || skin.name.includes("Rat Chest")
+        || skin.name.includes("Spooky Large Box")
+        || skin.name.includes("Molten Visage Large Box")
+        || skin.name.includes("Ammo Crate")
+        || skin.name.includes("Turntable Box")
+        || skin.name.includes("Toy Box")
+        || skin.name.includes("Midnight Box")
+        || skin.name.includes("Shippy Crate")
+        || skin.name.includes("Scrap Heli Box")
+        || skin.name.includes("Sunrise Box")
+        || skin.name.includes("Morexo Tool Box")
+        || skin.name.includes("Night Sky Large Box")
+        || skin.name.includes("Leprechaun's Loot")
+        || skin.name.includes("Freight Crate")
+        || skin.name.includes("Royal Loot")
+        || skin.name.includes("Cursed Soul Chest")
+        || skin.name.includes("Deep Sea Storage")
+        || skin.name.includes("Horseshoe Box")
+        || skin.name.includes("Dead Man's Chest")
+        || skin.name.includes("Box of Hearts")
+        || skin.name.includes("Digital Security Box")
+        || skin.name.includes("Monster Box")
+        || skin.name.includes("Egiptu Box")
+        || skin.name.includes("Gingerbread Box")
+        || skin.name.includes("Creepy Box")
+        || skin.name.includes("Box from Hell")
+        || skin.name.includes("Varangian Chest")
+        || skin.name.includes("Open Stone Box")
+        || skin.name.includes("Large Suitcase")
+        || skin.name.includes("Peacemaker Box")
+        || skin.name.includes("Labyrinth Box")
+        || skin.name.includes("Oathbreaker Box")
+        || skin.name.includes("Divinity Chest")
+        || skin.name.includes("Pharaoh Mummy Box")
+        || skin.name.includes("Toxic Box")
+        || skin.name.includes("Ragnarok Trunk")
+        || skin.name.includes("Ordnance Box")
+        || skin.name.includes("Caution Crate")
+        || skin.name.includes("Trophy Pirate Chest")
+        || skin.name.includes("Cursed Pirate Treasure Chest")
+        || skin.name.includes("Defender Box")
+        || skin.name.includes("Railway Box")
+        || skin.name.includes("Bone Collector Box")
+        || skin.name.includes("Carpenter's Chest")
+        || skin.name.includes("Ichtaca Treasure Box")
+        || skin.name.includes("Pandora's box")
+        || skin.name.includes("Aztec Gold Chest")
+        || skin.name.includes("Muertos Chest")
+        || skin.name.includes("Eisensheet Box")
+        || skin.name.includes("Captain's Treasure")
+        || skin.name.includes("Scrapper Storage Chest")
+        || skin.name.includes("Childhood Toolbox")
+        || skin.name.includes("Lone Wolf Chest")
+        || skin.name.includes("Aztec Trunk")
+        || skin.name.includes("Danger Box")
+        || skin.name.includes("Idolized Toolbox")
+        || skin.name.includes("Salvaged Cargo Box")
+        || skin.name.includes("Wyrm Chest")
+        || skin.name.includes("Trash Box")
+        || skin.name.includes("Forgotten Temple Box")
+        || skin.name.includes("Hazard Crate")
+        || skin.name.includes("Dead Pirates Chest")
+        || skin.name.includes("Vaccine box")
+        || skin.name.includes("Loot Coffer")
+        || skin.name.includes("Leather Bound Trunk")
+        || skin.name.includes("Fire Hose Box")
+        || skin.name.includes("Mini Nuke Case")
+        || skin.name.includes("Padded Armor Trunk")
+        || skin.name.includes("Metropolitan Trunk")
+        || skin.name.includes("Food Box Large")
+        || skin.name.includes("Medieval Box")
+        || skin.name.includes("First Aid Large Box")
+        || skin.name.includes("Royal Wooden Box")
+        || skin.name.includes("Urban Large Wood Storage")
+        || skin.name.includes("Cabin Chest")
+        || skin.name.includes("Long Hauler's Trunk")
+        || skin.name.includes("Recyclables Box")
+        || skin.name.includes("Weapons Box")
+        || skin.name.includes("Components Storage")
+        || skin.name.includes("Military Crate")
+        || skin.name.includes("Ammo Box")
+        || skin.name.includes("Christmas Holiday LWB")
+        || skin.name.includes("Christmas Storage")
+        || skin.name.includes("Ammo Wooden Box")
+        || skin.name.includes("Gun Box")
+        || skin.name.includes("Large Stone Box")
+        || skin.name.includes("Explosives Box")
+        || skin.name.includes("D.O.A Trunk")
+        || skin.name.includes("First Aid Green")
+        skin.element.classList.toggle("hide", !isVisible)
+        })
+      })
+    })
+
+
+     BONEHELM.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Rudolph Skull Mask")
+        || skin.name.includes("The Plague Doctor")
+        || skin.name.includes("Uprising Deer Skull Mask")
+        || skin.name.includes("Demonic Deer Skull")
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+    BUCKETHAT.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Secret Recipe Bucket Helmet")
+        || skin.name.includes("Punk Bucket")
+        || skin.name.includes("Roasted Bucket Helmet")
+        || skin.name.includes("Sunrise Bucket Helmet")
+        || skin.name.includes("Road Cone Helmet")
+        || skin.name.includes("Green Riveted Bucket Helmet")
+        || skin.name.includes("Wooden Bucket")
+        || skin.name.includes("Smilin' Jack")
+        || skin.name.includes("Rusty Bucket Helmet")
+        || skin.name.includes("Graffiti Bucket Helmet")
+        || skin.name.includes("Super Happy Bucket")
+        || skin.name.includes("The King's Bucket")
+        || skin.name.includes("Medic Helmet")
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+
+    BANDANA.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Snow Camo Bandana")
+        || skin.name.includes("Skull Bandana")
+        || skin.name.includes("Red Skull Bandana")
+        || skin.name.includes("Forest Camo Bandana")
+        || skin.name.includes("Desert Camo Bandana")
+        || skin.name.includes("Checkered Bandana")
+        || skin.name.includes("Blue Bandana")
+        || skin.name.includes("Black Bandana")
+        || skin.name.includes("Road Raider Bandana")
+        || skin.name.includes("Santa Bandana")
+        || skin.name.includes("Jawboy")
+        || skin.name.includes("Creepy Clown Bandana")
+        || skin.name.includes("Wizard Bandana")
+        || skin.name.includes("Green Bandana")
+        || skin.name.includes("Burlap Bandit Bandana")
+        || skin.name.includes("Beast Bandana")
+        || skin.name.includes("Salvaged Hazmat Bandana")
+        || skin.name.includes("Egg Thief")
+        || skin.name.includes("Easter Bandit")
+        || skin.name.includes("Creepy Bandana")
+        || skin.name.includes("Dragon Rage Bandana")
+        || skin.name.includes("Rainbow Pony Bandana")
+        || skin.name.includes("Corrupted Bandana")
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+
+    CAP.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Red Cap")
+        || skin.name.includes("Grey Cap")
+        || skin.name.includes("Green Cap")
+        || skin.name.includes("Forest Camo Cap")
+        || skin.name.includes("Blue Cap")
+        || skin.name.includes("Rescue Cap")
+        || skin.name.includes("Friendly Cap")
+        || skin.name.includes("Toothy Hat")
+        || skin.name.includes("Top Cap")
+        || skin.name.includes("Oxums Employee Cap")
+        || skin.name.includes("Jockey Cap")
+        || skin.name.includes("Taxi Cap")
+        || skin.name.includes("Poker Player Cap")
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+
+    BEANIE.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Gunner Beanie")
+        || skin.name.includes("Winter Deers")
+        || skin.name.includes("Rasta Beenie")
+        || skin.name.includes("Black Beenie Hat")
+        || skin.name.includes("Blue Beenie Hat")
+        || skin.name.includes("Green Beenie Hat")
+        || skin.name.includes("Red Beenie Hat")
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+    BOONIE.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Fisherman Hat")
+        || skin.name.includes("Gentleman's Fedora")
+        || skin.name.includes("Farmer Straw Hat")
+        || skin.name.includes("Cowboy Sheriff Hat")
+        || skin.name.includes("Flower Hat")
+        || skin.name.includes("PVC Hat")
+        || skin.name.includes("Leather Boonie Hat")
+        || skin.name.includes("Hunted Hat")
+        || skin.name.includes("Burlap Bandit Hat")
+        || skin.name.includes("Cowboy Hat")
+        || skin.name.includes("Fisherman Boonie Hat")
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+    BOOTS.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Dragon Rage Boots")
+        || skin.name.includes("Tempered Boots")
+        || skin.name.includes("Lightweight Boots")
+        || skin.name.includes("Forest Raiders Boots")
+        || skin.name.includes("Bombshell Boots")
+        || skin.name.includes("Rainbow Pony Boots")
+        || skin.name.includes("Blackout Boots")
+        || skin.name.includes("Bee Cosplay Boots")
+        || skin.name.includes("No Mercy Boots")
+        || skin.name.includes("Bombing Boots")
+        || skin.name.includes("Desert Raiders Boots")
+        || skin.name.includes("Corrupted Boots")
+        || skin.name.includes("Cow Moo Flage Boots")
+        || skin.name.includes("Bio Integrity Boots")
+        || skin.name.includes("Road Romeo Boots")
+        || skin.name.includes("Doodle Boots")
+        || skin.name.includes("Loot Leader Boots")
+        || skin.name.includes("Tactical Combat Boots")
+        || skin.name.includes("Brony Boots")
+        || skin.name.includes("Marsh Lurker Boots")
+        || skin.name.includes("Glory Boots")
+        || skin.name.includes("Apocalyptic Knight Boots")
+        || skin.name.includes("Punkish Boots")
+        || skin.name.includes("Training Boots")
+        || skin.name.includes("Cajun Boots")
+        || skin.name.includes("Badboy Boots")
+        || skin.name.includes("Sky Seal Boots")
+        || skin.name.includes("Metalhunter Boots")
+        || skin.name.includes("Arctic Wolf Boots")
+        || skin.name.includes("Stalker Boots")
+        || skin.name.includes("Explorer Boots")
+        || skin.name.includes("Army Black Boots")
+        || skin.name.includes("Yellow Race Boots")
+        || skin.name.includes("Wasteland Hunter Boots")
+        || skin.name.includes("Muddy Boots")
+        || skin.name.includes("Tailgunner Boots")
+        || skin.name.includes("Caravanner Boots")
+        || skin.name.includes("Armored Boots")
+        || skin.name.includes("Army Armored Boots")
+        || skin.name.includes("Combat Boots")
+        || skin.name.includes("Tactical Boots")
+        || skin.name.includes("Hazard Move Boots")
+        || skin.name.includes("Black Boots")
+        || skin.name.includes("Scavenged Sneaker Boots")
+        || skin.name.includes("Punk Boots")
+        || skin.name.includes("Bloody Boots")
+        || skin.name.includes("Army Boots")
+        || skin.name.includes("Rock Star Boots")
+        || skin.name.includes("Tan Boots")
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+    BURLAPHEAD.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Wrapped Brain")
+        || skin.name.includes("Freak Headwrap")
+        || skin.name.includes("Shark Headwrap")
+        || skin.name.includes("Fish Head")
+        || skin.name.includes("Death Mask")
+        || skin.name.includes("Outlaw Headwrap")
+        || skin.name.includes("Brotherhood Headwrap")
+        || skin.name.includes("Shinobi Cowl")
+        || skin.name.includes("Bandit Headwrap")
+        || skin.name.includes("Minicopter Pilot Helmet")
+        || skin.name.includes("SandPrince")
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+    BURLAPSHIRT.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Pirate Vest & Shirt")
+        || skin.name.includes("Captain's Vest and Shirt")
+        || skin.name.includes("Burlap and Leather Vest")
+        || skin.name.includes("Biker Dad")
+        || skin.name.includes("Sleazy Rider")
+        || skin.name.includes("Desert Outlaw Burlap Shirt")
+        || skin.name.includes("Caravanner Shirt")
+        || skin.name.includes("Blacksmith Shirt")
+        || skin.name.includes("Rioter's Jacket")
+        || skin.name.includes("Santa's Helper Shirt")
+        || skin.name.includes("Whens Whip?")
+        || skin.name.includes("It is Wednesday, my dudes")
+        || skin.name.includes("Road Raider Shirt")
+        || skin.name.includes("Leopard Skin Shirt")
+        || skin.name.includes("Pirate Shirt")
+        || skin.name.includes("Junkyard King Shirt")
+        || skin.name.includes("Burlap Bandit Shirt")
+        || skin.name.includes("Cowboy Shirt")
+        || skin.name.includes("Farmer Overalls Top")
+        || skin.name.includes("Gentleman's Shirt")
+        || skin.name.includes("Fish Shirt")
+        || skin.name.includes("Burlap Disco Shirt")
+        || skin.name.includes("Fisherman Burlap Shirt")
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+    BURLAPSHOES.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Burlap Ninja Slippers")
+        || skin.name.includes("Broken Ankles Cast")
+        || skin.name.includes("Fish Shoes")
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+    BURLAPTROUSERS.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Fisherman Burlap Pants")
+        || skin.name.includes("Burlap Disco Pants")
+        || skin.name.includes("Fish Pants")
+        || skin.name.includes("Gentleman's Pants")
+        || skin.name.includes("Farmer Overalls Bottom")
+        || skin.name.includes("Cowboy Pants")
+        || skin.name.includes("Rioter's Pants")
+        || skin.name.includes("Road Raider Pants")
+        || skin.name.includes("Leopard Skin Pants")
+        || skin.name.includes("Pirate Pants")
+        || skin.name.includes("Junkyard King Pants")
+        || skin.name.includes("Burlap Bandit Pants")
+        || skin.name.includes("Blacksmith Pants")
+        || skin.name.includes("Desert Outlaw Burlap Pants")
+        || skin.name.includes("Recycled Tarp Pants")
+
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+    COFFEEHELM.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Low Poly Helmet")
+        || skin.name.includes("Berserker Helmet")
+        || skin.name.includes("Target Helmet")
+        || skin.name.includes("Copper Helmet")
+        || skin.name.includes("Dragon Rage Helmet")
+        || skin.name.includes("Chocolate Easter Helmet")
+        || skin.name.includes("Knights Templar Helmet")
+        || skin.name.includes("Nutcracker Helmet")
+        || skin.name.includes("Frosty Helmet")
+        || skin.name.includes("Military Helmet")
+        || skin.name.includes("Toy Helmet")
+        || skin.name.includes("Glister Helmet")
+        || skin.name.includes("Tempered Helmet")
+        || skin.name.includes("Fish Helmet")
+        || skin.name.includes("Forest Raiders Helmet")
+        || skin.name.includes("Rainbow Pony Helmet")
+        || skin.name.includes("Lightweight Helmet")
+        || skin.name.includes("Desert Raiders Helmet")
+        || skin.name.includes("Bombing Helmet")
+        || skin.name.includes("Porcelain Helmet")
+        || skin.name.includes("Opulent Helmet")
+        || skin.name.includes("No Mercy Helmet")
+        || skin.name.includes("Cardboard Helmet")
+        || skin.name.includes("Mr. Gingerbread Helmet")
+        || skin.name.includes("Blackout Helmet")
+        || skin.name.includes("Doodle Helmet")
+        || skin.name.includes("Lunar Armor Helmet")
+        || skin.name.includes("Iceman Helmet")
+        || skin.name.includes("Training Helmet")
+        || skin.name.includes("Metal Zombie Helmet")
+        || skin.name.includes("Bombshell Helmet")
+        || skin.name.includes("Heavy Machinery Helmet")
+        || skin.name.includes("Solar Panel Helmet")
+        || skin.name.includes("Apocalyptic Knight Helmet")
+        || skin.name.includes("Azul Helmet")
+        || skin.name.includes("Phantom Helmet")
+        || skin.name.includes("Peacemaker Helmet")
+        || skin.name.includes("Viking Helmet")
+        || skin.name.includes("Chaos Helmet")
+        || skin.name.includes("Ornate Helmet")
+        || skin.name.includes("Scary Helmet")
+        || skin.name.includes("Night Stalker Helmet")
+        || skin.name.includes("Snap Turtle Helmet")
+        || skin.name.includes("Vandal Graffiti Helmet")
+        || skin.name.includes("Heavenly Legion Helmet")
+        || skin.name.includes("Dwarf Helmet")
+        || skin.name.includes("Full Metal Helmet")
+        || skin.name.includes("Dominator Helmet")
+        || skin.name.includes("Scrapper Helmet")
+        || skin.name.includes("Scrap Hazard Helmet")
+        || skin.name.includes("Utilizer Helmet")
+        || skin.name.includes("Metalhunter Can Helmet")
+        || skin.name.includes("Mad Helmet")
+        || skin.name.includes("Saboteur's Can Helmet")
+        || skin.name.includes("Plywood Helmet")
+        || skin.name.includes("Epidemic Helmet")
+        || skin.name.includes("Junkyard Samurai Helmet")
+        || skin.name.includes("Roadsign Warrior Helmet")
+        || skin.name.includes("Desert Patrol Helmet")
+        || skin.name.includes("Nordic Beast Helmet")
+        || skin.name.includes("Sunrise Helmet")
+        || skin.name.includes("Army Armored Helmet")
+        || skin.name.includes("Warboy Helmet")
+        || skin.name.includes("Welding Helmet")
+        || skin.name.includes("Apocalypse Helmet")
+        || skin.name.includes("Lizard Skull")
+        || skin.name.includes("Skull Hazard")
+        || skin.name.includes("Rusty Coffee Can Helmet")
+        || skin.name.includes("Spare Parts")
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+    HIDEBOOTS.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Rudolph Slippers")
+        || skin.name.includes("Uprising Hide Shoes")
+        || skin.name.includes("Native American Hide Shoes")
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+    HIDEHALTER.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Leopard Top")
+        || skin.name.includes("Caution Tape Top")
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+    HIDEPANTS.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Uprising Hide Pants")
+        || skin.name.includes("Tribesman Hide Pants")
+
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+    HIDEPONCHO.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Fish Poncho")
+        || skin.name.includes("Tribesman Poncho")
+        || skin.name.includes("Camo Netting")
+        || skin.name.includes("Uprising Hide Poncho")
+        || skin.name.includes("Toymaker Poncho")
+        || skin.name.includes("Grey Wolf Hide Poncho")
+
+
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+
+    HIDESKIRT.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Irish Kilt")
+        || skin.name.includes("Blue Tarp Skirt")
+
+
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+
+
+    HIDEVEST.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Tribesman Hide Shirt")
+        || skin.name.includes("Celtic Hide Shirt")
+
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+
+    HOODIE.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Black Gold Hoodie")
+        || skin.name.includes("Berserker Hoodie")
+        || skin.name.includes("Low Poly Hoodie")
+        || skin.name.includes("Copper Hoodie")
+        || skin.name.includes("Festive Costume Hoodie")
+        || skin.name.includes("Glister Hoodie")
+        || skin.name.includes("Dragon Rage Hoodie")
+        || skin.name.includes("Renegade Hoodie")
+        || skin.name.includes("Charitable Rust 2021 Hoodie")
+        || skin.name.includes("Tempered Hoodie")
+        || skin.name.includes("Nuclear Fanatic Hoodie")
+        || skin.name.includes("Yeti Hoodie")
+        || skin.name.includes("Wings Of Love Hoodie")
+        || skin.name.includes("Zombie Costume Hoodie")
+        || skin.name.includes("Knights Templar Hoodie")
+        || skin.name.includes("Forest Raiders Hoodie")
+        || skin.name.includes("Desert Raiders Hoodie")
+        || skin.name.includes("Shattered Mirror Hoodie")
+        || skin.name.includes("Rust Vibes Hoodie")
+        || skin.name.includes("Rainbow Pony Hoodie")
+        || skin.name.includes("Corrupted Hoodie")
+        || skin.name.includes("Whiteout Hoodie")
+        || skin.name.includes("Ladybug Cosplay Hoodie")
+        || skin.name.includes("Nitrogen Hoodie")
+        || skin.name.includes("Lovestruck Hoodie")
+        || skin.name.includes("Space Raider Hoodie")
+        || skin.name.includes("Winter Hoodie")
+        || skin.name.includes("Trust in Rust Hoodie")
+        || skin.name.includes("Opulent Hoodie")
+        || skin.name.includes("Rusteratu Hoodie")
+        || skin.name.includes("Base Invaders Hoodie")
+        || skin.name.includes("Bombshell Hoodie")
+        || skin.name.includes("Bombing Hoodie")
+        || skin.name.includes("Poison Hoodie")
+        || skin.name.includes("Azul Hoodie")
+        || skin.name.includes("Kayak Hoodie")
+        || skin.name.includes("Dragon Hoodie")
+        || skin.name.includes("Bee Cosplay Hoodie")
+        || skin.name.includes("Hobo Hoodie")
+        || skin.name.includes("Uproar Hoodie")
+        || skin.name.includes("Blackout Hoodie")
+        || skin.name.includes("Conspiracy Nut Hoodie")
+        || skin.name.includes("Elite Forest Camo Hoodie")
+        || skin.name.includes("Snow Warrior Hoodie")
+        || skin.name.includes("Garage Master Hoodie")
+        || skin.name.includes("Cow Moo Flage Hoodie")
+        || skin.name.includes("Phantom Hoodie")
+        || skin.name.includes("Bio Integrity Hoodie")
+        || skin.name.includes("Caution Hoodie")
+        || skin.name.includes("Road Romeo Jacket")
+        || skin.name.includes("Buscador Hoodie")
+        || skin.name.includes("Tactical Hoodie")
+        || skin.name.includes("Maniac Hoodie")
+        || skin.name.includes("Rocker Jacker")
+        || skin.name.includes("Rustmas PJ Hoodie")
+        || skin.name.includes("Doodle Hoodie")
+        || skin.name.includes("Punkish Hoodie")
+        || skin.name.includes("Loot Leader Hoodie")
+        || skin.name.includes("Operator Hoodie")
+        || skin.name.includes("Playmaker Hoodie")
+        || skin.name.includes("Apocalyptic Knight Hoodie")
+        || skin.name.includes("Cowboy Sheriff Hoodie")
+        || skin.name.includes("Airman Hoodie")
+        || skin.name.includes("Minicopter Pilot Jacket")
+        || skin.name.includes("Tough Bunny Hoodie")
+        || skin.name.includes("Training Hoodie")
+        || skin.name.includes("No Mercy Hoodie")
+        || skin.name.includes("Jockey Hoodie")
+        || skin.name.includes("Railway Engineer Hoodie")
+
+        || skin.name.includes("Low Poly Hoodie")
+        || skin.name.includes("Scrapper Hoodie")
+        || skin.name.includes("Survivor Jacket")
+        || skin.name.includes("Christmas Gang Hoodie")
+        || skin.name.includes("Electrician Hoodie")
+        || skin.name.includes("CCSC Hoodie")
+        || skin.name.includes("Checkpoint Hoodie")
+        || skin.name.includes("Badboy Hoodie")
+        || skin.name.includes("Cajun Hoodie")
+        || skin.name.includes("Mad Rider Hoodie")
+        || skin.name.includes("Marsh Lurker Hoodie")
+        || skin.name.includes("Outlaws Hoodie")
+        || skin.name.includes("Brony Hoodie")
+        || skin.name.includes("Lumberjack Hoodie")
+        || skin.name.includes("Seaman Hoodie")
+        || skin.name.includes("Northern Forester Hoodie")
+        || skin.name.includes("Urban Ice Hoodie")
+        || skin.name.includes("Explorer Hoodie")
+        || skin.name.includes("Prospector's Hoodie")
+        || skin.name.includes("Revolution Hoodie")
+        || skin.name.includes("Chekist's Hoodie")
+        || skin.name.includes("Savage Jacket")
+        || skin.name.includes("Predator Hoodie")
+        || skin.name.includes("Conquistador Hoodie")
+        || skin.name.includes("Sky Seal Hoodie")
+        || skin.name.includes("Metalhunter Hoodie")
+        || skin.name.includes("Arctic Wolf Hoodie")
+        || skin.name.includes("Gang Leader Hoodie")
+        || skin.name.includes("Wasteland Hunter Hoodie")
+        || skin.name.includes("Rocket Factory Crew Hoodie")
+        || skin.name.includes("Huntsman Hoodie")
+        || skin.name.includes("Tailgunner Hoodie")
+        || skin.name.includes("Stalker Hoodie")
+        || skin.name.includes("Worker Hoodie")
+        || skin.name.includes("Denim Studded Hoodie")
+        || skin.name.includes("Nordic Beast Hoodie")
+        || skin.name.includes("Yellow Police Jacket")
+        || skin.name.includes("Yellow Racer Hoodie")
+        || skin.name.includes("Regulator's Hoodie")
+        || skin.name.includes("Tank Crew Hoodie")
+        || skin.name.includes("Desert Conqueror Hoodie")
+        || skin.name.includes("Scudpunk Hoodie")
+        || skin.name.includes("Leather Strapped Hoodie")
+        || skin.name.includes("Army Armored Hoodie")
+        || skin.name.includes("Unknown Territory Hoodie")
+        || skin.name.includes("Official Vertiigo Hoodie")
+        || skin.name.includes("Ranger's Vest")
+        || skin.name.includes("BCHILLZ! Hoodie")
+        || skin.name.includes("Safety Crew")
+        || skin.name.includes("Cuda87 Hoodie")
+        || skin.name.includes("Green Hoodie")
+        || skin.name.includes("Blue Hoodie")
+        || skin.name.includes("Black Hoodie")
+        || skin.name.includes("Bloody Hoodie")
+        || skin.name.includes("Skeleton Hoodie")
+        || skin.name.includes("Rhinocrunch Hoodie")
+
+        
+
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+
+
+   BALACLAVA.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Frankenstein Mask")
+        || skin.name.includes("Rotten Scalp")
+        || skin.name.includes("Executioner Latex")
+        || skin.name.includes("Meat Mask")
+        || skin.name.includes("Nerd Glasses")
+        || skin.name.includes("Toupee")
+        || skin.name.includes("Burlap Brains Balaclava")
+        || skin.name.includes("Zipper Face")
+        || skin.name.includes("Valentine Balaclava")
+        || skin.name.includes("Santa Balaclava")
+        || skin.name.includes("Knitted Balaclava")
+        || skin.name.includes("Burglar Mask")
+        || skin.name.includes("Stitched Skin")
+        || skin.name.includes("Skin Balaclava")
+        || skin.name.includes("The Rust Knight")
+        || skin.name.includes("Nightmare Balaclava")
+        || skin.name.includes("Desert Camo Balaclava")
+        || skin.name.includes("Double Yellow Balaclava")
+        || skin.name.includes("Rorschach Skull")
+        || skin.name.includes("Murica Balaclava")
+        || skin.name.includes("Red Check Balaclava")
+        || skin.name.includes("Forest Camo Balaclava")
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+
+ JACKET.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Urban Camo Jacket")
+        || skin.name.includes("Snowcamo Jacket")
+        || skin.name.includes("Red Jacket")
+        || skin.name.includes("Multicam Jacket")
+        || skin.name.includes("Hunting Jacket")
+        || skin.name.includes("Green Jacket")
+        || skin.name.includes("Desert Jacket")
+        || skin.name.includes("No Mercy Jacket")
+        || skin.name.includes("Blackout Jacket")
+        || skin.name.includes("Urban Ice Jacket")
+        || skin.name.includes("Fire jacket")
+        || skin.name.includes("Provocateur Jacket")
+        || skin.name.includes("Blue Jacket")
+        || skin.name.includes("Bombing Jacket")
+        || skin.name.includes("Tempered Jacket")
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+    LEATHERGLOVE.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Fish Gloves")
+        || skin.name.includes("No Mercy Gloves")
+        || skin.name.includes("Bee Cosplay Gloves")
+        || skin.name.includes("Blackout Gloves")
+        || skin.name.includes("Cow Moo Flage Gloves")
+        || skin.name.includes("Bio Integrity Gloves")
+        || skin.name.includes("Tactical Leather Gloves")
+        || skin.name.includes("Training Gloves")
+        || skin.name.includes("Playmaker Gloves")
+        || skin.name.includes("Loot Leader Gloves")
+        || skin.name.includes("Doodle Gloves")
+        || skin.name.includes("Road Romeo Gloves")
+        || skin.name.includes("Punkish Gloves")
+        || skin.name.includes("Apocalyptic Knight Leather Gloves")
+        || skin.name.includes("Glory Gloves")
+        || skin.name.includes("Survivor Gloves")
+        || skin.name.includes("CCSC Gloves")
+        || skin.name.includes("Marsh Lurker Gloves")
+        || skin.name.includes("Firefighter Gloves")
+        || skin.name.includes("Lumberjack Gloves")
+        || skin.name.includes("Junkyard King Gloves")
+        || skin.name.includes("Badboy Gloves")
+        || skin.name.includes("Cajun Gloves")
+        || skin.name.includes("Mad Rider Gloves")
+        || skin.name.includes("Metalhunter Gloves")
+        || skin.name.includes("Sky Seal Gloves")
+        || skin.name.includes("Arctic Wolf Gloves")
+        || skin.name.includes("Stalker Gloves")
+        || skin.name.includes("Tailgunner Gloves")
+        || skin.name.includes("Space Rocket Work Gloves")
+        || skin.name.includes("Army Armored Gloves")
+        || skin.name.includes("Bruiser Gloves")
+        || skin.name.includes("Caravanner Gloves")
+        || skin.name.includes("Wasteland Hunter Gloves")
+        || skin.name.includes("Merciless Gloves")
+        || skin.name.includes("Junklord Gloves")
+        || skin.name.includes("Black Alligator")
+        || skin.name.includes("Duelist Gloves")
+        || skin.name.includes("Motorcycle Gloves")
+        || skin.name.includes("Boxer's Bandages")
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+   LONGSLEEVE.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Rust Goalkeeper Shirt")
+        || skin.name.includes("Christmas Elf")
+        || skin.name.includes("Battle Worn Long TShirt")
+        || skin.name.includes("Merry Reindeer")
+        || skin.name.includes("Lawman")
+        || skin.name.includes("Nightmare Sweater")
+        || skin.name.includes("Green Checkered Shirt")
+        || skin.name.includes("Frankensteins Sweater")
+        || skin.name.includes("Aztec Long T-Shirt")
+        || skin.name.includes("Christmas Jumper")
+        || skin.name.includes("Creepy Jack")
+        || skin.name.includes("Sign Painter")
+        || skin.name.includes("Varsity Jacket")
+        || skin.name.includes("Black Longsleeve T-Shirt")
+        || skin.name.includes("Grey Longsleeve T-Shirt")
+        || skin.name.includes("Orange Longsleeve T-Shirt")
+        || skin.name.includes("Yellow Longsleeve T-Shirt")
+        
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+
+    METALCHESTPLATE.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("ChestPlate")
+        || skin.name.includes("Chest Plate")
+        || skin.name.includes("Kayak Vest")
+        || skin.name.includes("Tribe Warrior Armor")
+        || skin.name.includes("Poison Armor Plate")
+        || skin.name.includes("Frostwulf Armor")
+        || skin.name.includes("Glory Armor Chest")
+        || skin.name.includes("Santa Chest Plate")
+        || skin.name.includes("Samurai Kozane Do")
+        || skin.name.includes("Flyer Vest")
+        || skin.name.includes("Salvaged Plating Armor")
+        || skin.name.includes("Looter's Chain and Plate")
+        || skin.name.includes("Press Vest")
+        || skin.name.includes("Chest Resistance")
+        || skin.name.includes("Chainmail")
+        || skin.name.includes("Machina Plate")
+        || skin.name.includes("Flak Vest - Green")
+        || skin.name.includes("Plate Carrier - Black")
+        
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+    METALFACEMASK.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Facemask")
+        || skin.name.includes("Rainbow Pony Mask")
+        || skin.name.includes("Dread Mask")
+        || skin.name.includes("Kayak Helmet")
+        || skin.name.includes("Opulent Mask")
+        || skin.name.includes("Poison Mask")
+        || skin.name.includes("Test Dummy Mask")
+        || skin.name.includes("Tribe Warrior Mask")
+        || skin.name.includes("Forsaken Era Mask")
+        || skin.name.includes("Northwind Mask")
+        || skin.name.includes("Frostwulf Mask")
+        || skin.name.includes("Glory Mask")
+        || skin.name.includes("Vandal Face Mask")
+        || skin.name.includes("Troll Daddy Mask")
+        || skin.name.includes("Flyer Mask")
+        || skin.name.includes("Samurai Somen")
+        || skin.name.includes("Glowing Metal Pumpkin Mask")
+        || skin.name.includes("War Machine Mask")
+        || skin.name.includes("Heavy Industry")
+        || skin.name.includes("Clan Leader Mask")
+        || skin.name.includes("Warface Mask")
+        || skin.name.includes("Red Dead Jester")
+        || skin.name.includes("Overlord Mask")
+        || skin.name.includes("Looter's Mask")
+        || skin.name.includes("Juggernaut Mask")
+        || skin.name.includes("Mosaic Mask")
+        || skin.name.includes("Scrapyard Curse")
+        || skin.name.includes("Hunter Mask")
+        || skin.name.includes("Bronze War Mask")
+        || skin.name.includes("Mask of Sacrifice")
+        || skin.name.includes("Where Eagles Dare")
+        || skin.name.includes("Frostbite")
+        || skin.name.includes("Steampunk Leather Mask")
+        || skin.name.includes("Human Sacrifice Mask")
+        || skin.name.includes("Machina Mask")
+        || skin.name.includes("Industrial Protection Mask")
+        || skin.name.includes("Punishment Mask")
+        || skin.name.includes("Tempered Mask")
+        || skin.name.includes("Aztek Night Hunter")
+        || skin.name.includes("Blingin Grill")
+        || skin.name.includes("Big Grin")
+        || skin.name.includes("Glowing Skull")
+        || skin.name.includes("Sacrificial Mask")
+        || skin.name.includes("Rusted Smile")
+        || skin.name.includes("face mask")
+        
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+    MINERSHAT.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Workman's Safety Hat")
+        || skin.name.includes("Army Miner Hat")
+        || skin.name.includes("Train Conductor Miner's Hat")
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+    PANTS.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Black Gold Pants")
+        || skin.name.includes("Berserker Pants")
+        || skin.name.includes("Low Poly Pants")
+        || skin.name.includes("Copper Pants")
+        || skin.name.includes("Wings Of Love Pants")
+        || skin.name.includes("Renegade Pants")
+        || skin.name.includes("Dragon Rage Pants")
+        || skin.name.includes("Glister Pants")
+        || skin.name.includes("Festive Costume Pants")
+        || skin.name.includes("Yeti Pants")
+        || skin.name.includes("Nuclear Fanatic Pants")
+        || skin.name.includes("Tempered Pants")
+        || skin.name.includes("Zombie Costume Pants")
+        || skin.name.includes("Knights Templar Pants")
+        || skin.name.includes("Corrupted Pants")
+        || skin.name.includes("Rainbow Pony Pants")
+        || skin.name.includes("Rust Vibes Pants")
+        || skin.name.includes("Shattered Mirror Pants")
+        || skin.name.includes("Desert Raiders Pants")
+        || skin.name.includes("Forest Raiders Pants")
+        || skin.name.includes("Whiteout Pants")
+        || skin.name.includes("Space Raider Pants")
+        || skin.name.includes("Lovestruck Pants")
+        || skin.name.includes("Nitrogen Pants")
+        || skin.name.includes("Bombshell Pants")
+        || skin.name.includes("Bombing Pants")
+        || skin.name.includes("Winter Pants")
+        || skin.name.includes("Ladybug Cosplay Pants")
+        || skin.name.includes("Base Invaders Pants")
+        || skin.name.includes("Rusteratu Pants")
+        || skin.name.includes("Opulent Pants")
+        || skin.name.includes("Poison Pants")
+        || skin.name.includes("Azul Pants")
+        || skin.name.includes("Kayak Pants")
+        || skin.name.includes("Elite Forest Camo Pants")
+        || skin.name.includes("Snow Warrior Pants")
+        || skin.name.includes("Garage Master Pants")
+        || skin.name.includes("Hobo Pants")
+        || skin.name.includes("Bee Cosplay Pants")
+        || skin.name.includes("Dragon Pants")
+        || skin.name.includes("Conspiracy Nut Pants")
+        || skin.name.includes("Blackout Pants")
+        || skin.name.includes("Uproar Pants")
+        || skin.name.includes("Cow Moo Flage Pants")
+        || skin.name.includes("Phantom Pants")
+        || skin.name.includes("Bio Integrity Pants")
+        
+        || skin.name.includes("Rocker Pants")
+        || skin.name.includes("Rustmas PJ Pants")
+        || skin.name.includes("Doodle Pants")
+        || skin.name.includes("Buscador Pants")
+        || skin.name.includes("Road Romeo Pants")
+        || skin.name.includes("Caution Workpants")
+        || skin.name.includes("Maniac Pants")
+        || skin.name.includes("Tactical Pants")
+        || skin.name.includes("Punkish Pants")
+        || skin.name.includes("Loot Leader Trousers")
+        || skin.name.includes("Operator Pants")
+        || skin.name.includes("Training Pants")
+        || skin.name.includes("No Mercy Pants")
+        || skin.name.includes("Jockey Pants")
+        || skin.name.includes("Cowboy Sheriff Pants")
+        || skin.name.includes("Apocalyptic Knight Pants")
+        || skin.name.includes("Playmaker Pants")
+        || skin.name.includes("Tough Bunny Pants")
+        || skin.name.includes("Minicopter Pilot Pants")
+        || skin.name.includes("Airman Pants")
+        || skin.name.includes("Railway Engineer Pants")
+        || skin.name.includes("Survivor Pants")
+        || skin.name.includes("Christmas Gang Pants")
+        || skin.name.includes("Cajun Pants")
+        || skin.name.includes("Brony Pants")
+        || skin.name.includes("Mad Rider Pants")
+        || skin.name.includes("Marsh Lurker Pants")
+        || skin.name.includes("CCSC Pants")
+        || skin.name.includes("Electrician Pants")
+        || skin.name.includes("Badboy Pants")
+        || skin.name.includes("Checkpoint Pants")
+        || skin.name.includes("Outlaws Pants")
+        || skin.name.includes("Lumberjack Pants")
+        || skin.name.includes("Seaman Pants")
+        || skin.name.includes("Northern Forester Pants")
+        || skin.name.includes("Explorer Pants")
+        || skin.name.includes("Prospector's Pants")
+        || skin.name.includes("Revolution Jeans")
+        || skin.name.includes("Firefighter Pants")
+        || skin.name.includes("Chekist's Pants")
+        || skin.name.includes("Urban Ice Pants")
+        || skin.name.includes("Santa's Helper Pants")
+        || skin.name.includes("Scrapper Pants")
+        || skin.name.includes("Savage Pants")
+        || skin.name.includes("Predator Pants")
+
+        || skin.name.includes("Conquistador Pants")
+        || skin.name.includes("Tank Crew Pants")
+        || skin.name.includes("Huntsman Pants")
+        || skin.name.includes("Tailgunner Pants")
+        || skin.name.includes("Stalker Pants")
+        || skin.name.includes("Arctic Wolf Pants")
+        || skin.name.includes("Metalhunter Pants")
+        || skin.name.includes("Sky Seal Pants")
+        || skin.name.includes("Wasteland Hunter Pants")
+        || skin.name.includes("Worker Pants")
+        || skin.name.includes("Nordic Beast Pants")
+        || skin.name.includes("Yellow Racer Pants")
+        || skin.name.includes("Caravanner Pants")
+        || skin.name.includes("Army Armored Pants")
+        || skin.name.includes("Punk Rock Pants")
+        || skin.name.includes("Blue Track Pants")
+        || skin.name.includes("Old Prisoner Pants")
+        || skin.name.includes("Steppe Camo Pants")
+        || skin.name.includes("One Percenter Chaps")
+        || skin.name.includes("Desert Conqueror Pants")
+        || skin.name.includes("Forest Camo Pants")
+        || skin.name.includes("Snow Camo Pants")
+        || skin.name.includes("Urban Camo Pants")
+        || skin.name.includes("Blue Jeans")
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+
+    RIOTHELM.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Captain's Helmet")
+        || skin.name.includes("Born To Loot")
+        || skin.name.includes("Ruthless Riot Helmet")
+        || skin.name.includes("Biker Goth Helmet")
+        || skin.name.includes("Hardline Helmet")
+        || skin.name.includes("Digger Helmet")
+        || skin.name.includes("Medical Riot Helmet")
+        || skin.name.includes("Blast Shield Helmet")
+        || skin.name.includes("Checkpoint Riot Helmet")
+        || skin.name.includes("Yellow Racer Helmet")
+        || skin.name.includes("Raider Helmet")
+        || skin.name.includes("Furious Raider Riot Helmet")
+        || skin.name.includes("Bumble Bee Helmet")
+        || skin.name.includes("Operator Helmet")
+        || skin.name.includes("Road Romeo Helmet")
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+    ROADSIGNVEST.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Low Poly Vest")
+        || skin.name.includes("Roadsign Vest")
+        || skin.name.includes("Copper Vest")
+        || skin.name.includes("Dragon Rage Vest")
+        || skin.name.includes("Chocolate Easter Vest")
+        || skin.name.includes("Knights Templar Vest")
+        || skin.name.includes("Nutcracker Vest")
+        || skin.name.includes("Frosty Vest")
+        || skin.name.includes("Military Vest")
+        || skin.name.includes("Toy Vest")
+        || skin.name.includes("Glister Vest")
+        || skin.name.includes("Fish Vest")
+        || skin.name.includes("Rainbow Pony Vest")
+        || skin.name.includes("Lightweight Vest")
+        || skin.name.includes("Corrupted Vest")
+        || skin.name.includes("Shattered Mirror Vest")
+        || skin.name.includes("Whiteout Vest")
+        || skin.name.includes("Mr. Gingerbread Vest")
+        || skin.name.includes("Cardboard Vest")
+        || skin.name.includes("No Mercy Vest")
+        || skin.name.includes("Centurion Vest")
+        || skin.name.includes("Oxums Racing Team Vest")
+        || skin.name.includes("Metal Zombie Vest")
+        || skin.name.includes("Training Vest")
+        || skin.name.includes("Iceman Armor")
+        || skin.name.includes("Lunar Armor Vest")
+        || skin.name.includes("Doodle Vest")
+        || skin.name.includes("Blackout Vest")
+        || skin.name.includes("Bombshell Vest")
+        || skin.name.includes("Solar Panel Vest")
+        || skin.name.includes("Apocalyptic Knight Vest")
+        || skin.name.includes("Phantom Vest")
+        || skin.name.includes("Viking Armor Vest")
+        || skin.name.includes("Chaos Armored Vest")
+        || skin.name.includes("Ornate Vest")
+        || skin.name.includes("Scary Vest")
+        || skin.name.includes("Night Stalker Vest")
+        || skin.name.includes("Peacemaker Vest")
+        || skin.name.includes("Snap Turtle Vest")
+        || skin.name.includes("Vandal Graffiti Vest")
+        || skin.name.includes("Heavenly Legion Vest")
+        || skin.name.includes("Full Metal Vest")
+        || skin.name.includes("Defender Vest")
+        || skin.name.includes("Samurai Dou")
+        || skin.name.includes("Loot Leader Vest")
+        || skin.name.includes("The Last Viking Vest")
+        || skin.name.includes("Caution Vest")
+        || skin.name.includes("Dominator Vest")
+        || skin.name.includes("Scrap Hazard Vest")
+        || skin.name.includes("Scrapper Vest")
+        || skin.name.includes("Saboteur's Vest")
+        || skin.name.includes("Mad Vest")
+        || skin.name.includes("Heavy Alloy Vest")
+        || skin.name.includes("Deathwing Vest")
+        || skin.name.includes("Plywood Vest")
+        || skin.name.includes("Cobalt Armor Vest")
+        || skin.name.includes("Utilizer Vest")
+        || skin.name.includes("Apocalypse Vest")
+        || skin.name.includes("Freebooter Vest")
+        || skin.name.includes("Desert Patrol Vest")
+        || skin.name.includes("Patchwork Cuirass")
+        || skin.name.includes("Spiked Metal Vest")
+        || skin.name.includes("Army Sign Vest")
+        || skin.name.includes("Junker's Vest")
+        || skin.name.includes("Nordic Beast Vest")
+        || skin.name.includes("Wasteland Legionnaire")
+        || skin.name.includes("Junkyard Samurai Vest")
+        || skin.name.includes("Chopshop Body Armor")
+        || skin.name.includes("British Sign Vest")
+        || skin.name.includes("Hazard Protection Vest")
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+    ROADSIGNKILT.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Roadsign Kilt")
+        || skin.name.includes("Roadsign Pants")
+        || skin.name.includes("Low Poly Kilt")
+        || skin.name.includes("Copper Kilt")
+        || skin.name.includes("Dragon Rage Kilt")
+        || skin.name.includes("Chocolate Easter Kilt")
+        || skin.name.includes("Knight Templar Kilt")
+        || skin.name.includes("Military Kilt")
+        || skin.name.includes("Nutcracker Kilt")
+        || skin.name.includes("Frosty Kilt")
+        || skin.name.includes("Glister Kilt")
+        || skin.name.includes("Toy Kilt")
+        || skin.name.includes("Lightweight Kilt")
+        || skin.name.includes("Mr. Gingerbread Kilt")
+        || skin.name.includes("Bombing Kilt")
+        || skin.name.includes("Shattered Mirror Kilt")
+        || skin.name.includes("Whiteout Kilt")
+        || skin.name.includes("Cardboard Kilt")
+        || skin.name.includes("No Mercy Kilt")
+        || skin.name.includes("Centurion Kilt")
+        || skin.name.includes("Oxums Racing Team Pants")
+        || skin.name.includes("Blackout Kilt")
+        || skin.name.includes("Metal Zombie Kilt")
+        || skin.name.includes("Training Kilt")
+        || skin.name.includes("Tactical Kilt")
+        || skin.name.includes("Iceman Kilt")
+        || skin.name.includes("Lunar Armor Pants")
+        || skin.name.includes("Doodle Kilt")
+        || skin.name.includes("Bombshell Vest")
+        || skin.name.includes("Solar Panel Vest")
+        || skin.name.includes("Bombshell Kilt")
+        || skin.name.includes("Playmaker Kilt")
+        || skin.name.includes("Scrapper Kilt")
+        || skin.name.includes("Solar Panel Pants")
+        || skin.name.includes("Apocalyptic Knight Kilt")
+        || skin.name.includes("Scary Kilt")
+        || skin.name.includes("Night Stalker Kilt")
+        || skin.name.includes("Glory Kilt")
+        || skin.name.includes("Phantom Kilt")
+        || skin.name.includes("Ornate Pants")
+        || skin.name.includes("Chaos Armored Pants")
+        || skin.name.includes("Viking Armor Pants")
+        || skin.name.includes("Peacemaker Pants")
+        || skin.name.includes("Snap Turtle Pants")
+        || skin.name.includes("Vandal Graffiti Pants")
+        || skin.name.includes("Caution Pants")
+        || skin.name.includes("Dominator Pants")
+        || skin.name.includes("Full Metal Kilt")
+        || skin.name.includes("Samurai Kusazuri")
+        || skin.name.includes("Heavenly Legion Kilt")
+        || skin.name.includes("Loot Leader Pants")
+        || skin.name.includes("Samurai Haidate")
+        || skin.name.includes("Defender Pants")
+        || skin.name.includes("Scrap Hazard Kilt")
+        || skin.name.includes("Saboteur's Pants")
+        || skin.name.includes("Mad Pants")
+        || skin.name.includes("Plywood Kilt")
+        || skin.name.includes("Cobalt Armor Pants")
+        || skin.name.includes("Utilizer Pants")
+        || skin.name.includes("Heavy Alloy Pants")
+        || skin.name.includes("Deathwing Pants")
+        || skin.name.includes("Apocalypse Kilt")
+        || skin.name.includes("Freebooter Pants")
+        || skin.name.includes("Desert Patrol Pants")
+        || skin.name.includes("Army Sign Kilt")
+        || skin.name.includes("Junker's Kilt")
+        || skin.name.includes("Nordic Beast Kilt")
+        || skin.name.includes("Junkyard Samurai Pants")
+        || skin.name.includes("Patchwork War Kilt")
+        || skin.name.includes("Spiked Metal Kilt")
+        || skin.name.includes("Chopshop Kilt")
+        || skin.name.includes("British Sign Pants")
+        || skin.name.includes("Hazard Cover Pants")
+
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+    ROADSIGNGLOVES.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Roadsign Gloves")
+        || skin.name.includes("Dragon Rage Gloves")
+        || skin.name.includes("Desert Raiders Gloves")
+
+
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+    SHIRT.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Autumn Hunter's Shirt")
+        || skin.name.includes("Sergeant Shirt")
+        || skin.name.includes("Survival Shirt")
+        || skin.name.includes("Green Lumberjack")
+        || skin.name.includes("Red Lumberjack")
+        || skin.name.includes("The Blue Death")
+  
+
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+    
+    SHORTS.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Shorts")
+  
+
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+
+
+    SNOWJACKET.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Fireman's Jacket")
+        || skin.name.includes("Telogreika Jacket")
+        || skin.name.includes("Woodland")
+        || skin.name.includes("60's Army Jacket")
+        || skin.name.includes("Salvaged Shirt, Coat and Tie")
+  
+
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+
+
+
+
+
+    SHORTS.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Shorts")
+  
+
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+
+    TSHIRT.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Rust Footballer Shirt")
+        || skin.name.includes("Crossbone Crew")
+        || skin.name.includes("Shadowfrax TShirt")
+        || skin.name.includes("Ser Winter TShirt")
+        || skin.name.includes("Argyle Scavenger")
+        || skin.name.includes("Missing Textures TShirt")
+        || skin.name.includes("Hacker Valley Veteran")
+        || skin.name.includes("Facepunch TShirt")
+        || skin.name.includes("Vyshyvanka Shirt")
+        || skin.name.includes("Skull & Bones TShirt")
+        || skin.name.includes("Baseball Tshirt")
+        || skin.name.includes("Murderer T-Shirt")
+        || skin.name.includes("Smile T-Shirt")
+        || skin.name.includes("Target Practice T-Shirt")
+        || skin.name.includes("Forest Camo Tshirt")
+        || skin.name.includes("German Tshirt")
+        || skin.name.includes("Russia Tshirt")
+        || skin.name.includes("Black Tshirt")
+        || skin.name.includes("Blue Tshirt")
+        || skin.name.includes("Red Tshirt")
+        || skin.name.includes("Urban Camo")
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+
+    TANKTOP.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Black Mesh Crop Top")
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+    REACTIVETARGET.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("On Target")
+        || skin.name.includes("Led Light Target")
+        || skin.name.includes("Decoy Target")
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+
+    RUG.addEventListener("click", () => {
+      const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
+      form.addEventListener('submit', () => {
+        for (let i = 0; i < 3224; i++) { 
+          if (elementList[i]) {
+            elementList[i].style.display = 'flex';
+        }
+      }
+        skins.forEach(skin => {
+        const Remove1 = skin.name.includes("Easter Rug")
+        || skin.name.includes("Camouflage Net")
+        || skin.name.includes("Panamanian Rug")
+        || skin.name.includes("Rustmas Rug")
+        || skin.name.includes("Rust Island Car Rug")
+        || skin.name.includes("Bandit Rug")
+        || skin.name.includes("Blood & Fire")
+        || skin.name.includes("Summer Rug")
+        || skin.name.includes("Scientist Rug")
+        || skin.name.includes("Tarp Rug")
+        || skin.name.includes("Rubber Hazard Mat")
+        || skin.name.includes("Tailor`s Carpet")
+        || skin.name.includes("Soviet Carpet")
+
+        skin.element.classList.toggle("hide", !Remove1)
+        })
+      })
+    })
+price2();
 
     
 // async function price1() {
@@ -1180,58 +3774,3 @@ let searchedItems = 0;
 // });
 
 // price1();
-price2();
-
-
-
-
-
-
-
-
-
-
-// OLD
-
-
-  // data1.documents[101].length
-  // for (let i = 0; i <= 200; i++) {
-  //   document.querySelector(`#price${i}`).textContent = "$ " + data1.documents[i].value.prices.latest;
-  //   document.querySelector(`#name${i}`).textContent = data1.documents[i].value.market_name;
-  //   document.querySelector(`#img${i}`).src =
-  //   data1.documents[i].value.image;
-  //   var a1 = document.getElementById(`link${i}`);
-  //   a1.href =
-  //     "https://steamcommunity.com/market/listings/252490/" + data1.documents[i].value.market_name;
-  // }
-
-
-    //   return {name: data1.documents[i].value.market_name, 
-    // price: data1.documents[i].value.prices.latest,
-    // link: "https://steamcommunity.com/market/listings/252490/" + data1.documents[i].value.market_name, 
-    // image: data1.documents[i].value.image, element: card}
-
-
-
-
-
-    //LOAD MORE BUTTON 
-
-
-    // let currentItems = 100;
-    
-    // loadmore.addEventListener('click', (e) => {
-    //     const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
-    //     for (let i = currentItems; i < currentItems + 100; i++) {
-          
-            // if (elementList[i]) {
-            //     elementList[i].style.display = 'flex';
-            // }
-    //     }
-    //     currentItems += 100;
-
-    //     // Load more button will be hidden after list fully loaded
-    //     if (currentItems >= elementList.length) {
-    //         event.target.style.display = 'none';
-    //     }
-    // })
