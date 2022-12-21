@@ -220,7 +220,7 @@ allSkinsButton.addEventListener("click", () => {
 Customizable.addEventListener("click", () => {
     const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
     form.addEventListener('submit', () => {
-      for (let i = 0; i < 3224; i++) { 
+      for (let i = 0; i < 3379; i++) { 
         if (elementList[i]) {
           elementList[i].style.display = 'flex';
       }
@@ -255,7 +255,7 @@ Customizable.addEventListener("click", () => {
 Stockless.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3224; i++) { 
+    for (let i = 0; i < 3379; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -314,7 +314,7 @@ Stockless.addEventListener("click", () => {
 GlowingSights.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3224; i++) { 
+    for (let i = 0; i < 3379; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -348,7 +348,7 @@ GlowingSights.addEventListener("click", () => {
 GlowingItems.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3224; i++) { 
+    for (let i = 0; i < 3379; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -471,7 +471,7 @@ GlowingItems.addEventListener("click", () => {
 Misc.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3224; i++) { 
+    for (let i = 0; i < 3379; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -511,7 +511,7 @@ Misc.addEventListener("click", () => {
 AK47.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3224; i++) { 
+    for (let i = 0; i < 3379; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -685,7 +685,7 @@ AK47.addEventListener("click", () => {
 Bolties.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3224; i++) { 
+    for (let i = 0; i < 3379; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -728,7 +728,7 @@ Bolties.addEventListener("click", () => {
 Boneclub.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3224; i++) { 
+    for (let i = 0; i < 3379; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -752,7 +752,7 @@ Boneclub.addEventListener("click", () => {
 Boneknife.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3224; i++) { 
+    for (let i = 0; i < 3379; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -774,7 +774,7 @@ Boneknife.addEventListener("click", () => {
 CombatKnife.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3224; i++) { 
+    for (let i = 0; i < 3379; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -802,7 +802,7 @@ CombatKnife.addEventListener("click", () => {
 CrossBow.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3224; i++) { 
+    for (let i = 0; i < 3379; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -877,7 +877,7 @@ CrossBow.addEventListener("click", () => {
 SMG.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3224; i++) { 
+    for (let i = 0; i < 3379; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -896,7 +896,7 @@ SMG.addEventListener("click", () => {
 DB.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3224; i++) { 
+    for (let i = 0; i < 3379; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -924,7 +924,7 @@ DB.addEventListener("click", () => {
 EOKA.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3224; i++) { 
+    for (let i = 0; i < 3379; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -952,7 +952,7 @@ EOKA.addEventListener("click", () => {
 Grenade.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3224; i++) { 
+    for (let i = 0; i < 3379; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -970,7 +970,7 @@ Grenade.addEventListener("click", () => {
 Bow.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3224; i++) { 
+    for (let i = 0; i < 3379; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -1032,7 +1032,7 @@ Bow.addEventListener("click", () => {
 L96.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3224; i++) { 
+    for (let i = 0; i < 3379; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -1056,7 +1056,7 @@ L96.addEventListener("click", () => {
 LR300.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3224; i++) { 
+    for (let i = 0; i < 3379; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -1133,7 +1133,7 @@ LR300.addEventListener("click", () => {
 LongSword.addEventListener("click", () => {
   const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   form.addEventListener('submit', () => {
-    for (let i = 0; i < 3224; i++) { 
+    for (let i = 0; i < 3379; i++) { 
       if (elementList[i]) {
         elementList[i].style.display = 'flex';
     }
@@ -1159,7 +1159,7 @@ let searchedItems = 0;
       const value = e.target.value.toLowerCase()
       
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
@@ -1179,7 +1179,7 @@ let searchedItems = 0;
     MP5A4.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -1233,7 +1233,7 @@ let searchedItems = 0;
   M249.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -1267,7 +1267,7 @@ let searchedItems = 0;
     M39.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -1291,7 +1291,7 @@ let searchedItems = 0;
     PUMPY.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -1334,7 +1334,7 @@ let searchedItems = 0;
    PYTHON.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -1356,7 +1356,7 @@ let searchedItems = 0;
     REVO.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -1379,7 +1379,7 @@ let searchedItems = 0;
    TOMMY.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -1399,7 +1399,7 @@ let searchedItems = 0;
     PIPE.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -1436,7 +1436,7 @@ let searchedItems = 0;
     WOODDOOR.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -1505,7 +1505,7 @@ let searchedItems = 0;
     DOUBLEWOODDOOR.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -1525,7 +1525,7 @@ let searchedItems = 0;
     SMALLBOX.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -1574,7 +1574,7 @@ let searchedItems = 0;
     WATERP.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -1592,7 +1592,7 @@ let searchedItems = 0;
     VENDING.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -1613,7 +1613,7 @@ let searchedItems = 0;
     TABLE.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -1631,7 +1631,7 @@ let searchedItems = 0;
     SLEEPINGB.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -1683,7 +1683,7 @@ let searchedItems = 0;
     DOUBLEMETALDOOR.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -1720,7 +1720,7 @@ let searchedItems = 0;
    METALDOOR.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -1891,7 +1891,7 @@ let searchedItems = 0;
   // SAR.addEventListener("click", () => {
   //     const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
   //     form.addEventListener('submit', () => {
-  //       for (let i = 0; i < 3224; i++) { 
+  //       for (let i = 0; i < 3379; i++) { 
   //         if (elementList[i]) {
   //           elementList[i].style.display = 'flex';
   //       }
@@ -1906,7 +1906,7 @@ let searchedItems = 0;
     SAR.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -1927,7 +1927,7 @@ let searchedItems = 0;
     SANDBAG.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -1942,7 +1942,7 @@ let searchedItems = 0;
     FURNACE.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -1972,7 +1972,7 @@ let searchedItems = 0;
     FRIDGE.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -1992,7 +1992,7 @@ let searchedItems = 0;
     CONCRETE.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -2015,7 +2015,7 @@ let searchedItems = 0;
     ARMOUREDDOOR.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -2053,7 +2053,7 @@ let searchedItems = 0;
     ARMOUREDDOUBLE.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -2075,7 +2075,7 @@ let searchedItems = 0;
     BEARSKIN.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -2096,7 +2096,7 @@ let searchedItems = 0;
     LARGEWOODBOX.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -2285,7 +2285,7 @@ let searchedItems = 0;
      BONEHELM.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -2303,7 +2303,7 @@ let searchedItems = 0;
     BUCKETHAT.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -2331,7 +2331,7 @@ let searchedItems = 0;
     BANDANA.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -2369,7 +2369,7 @@ let searchedItems = 0;
     CAP.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -2397,7 +2397,7 @@ let searchedItems = 0;
     BEANIE.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -2418,7 +2418,7 @@ let searchedItems = 0;
     BOONIE.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -2443,7 +2443,7 @@ let searchedItems = 0;
     BOOTS.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -2506,7 +2506,7 @@ let searchedItems = 0;
     BURLAPHEAD.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -2531,7 +2531,7 @@ let searchedItems = 0;
     BURLAPSHIRT.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -2568,7 +2568,7 @@ let searchedItems = 0;
     BURLAPSHOES.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -2585,7 +2585,7 @@ let searchedItems = 0;
     BURLAPTROUSERS.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -2615,7 +2615,7 @@ let searchedItems = 0;
     COFFEEHELM.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -2698,7 +2698,7 @@ let searchedItems = 0;
     HIDEBOOTS.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -2715,7 +2715,7 @@ let searchedItems = 0;
     HIDEHALTER.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -2731,7 +2731,7 @@ let searchedItems = 0;
     HIDEPANTS.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -2748,7 +2748,7 @@ let searchedItems = 0;
     HIDEPONCHO.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -2771,7 +2771,7 @@ let searchedItems = 0;
     HIDESKIRT.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -2791,7 +2791,7 @@ let searchedItems = 0;
     HIDEVEST.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -2809,7 +2809,7 @@ let searchedItems = 0;
     HOODIE.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -2954,7 +2954,7 @@ let searchedItems = 0;
    BALACLAVA.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -2991,7 +2991,7 @@ let searchedItems = 0;
  JACKET.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -3020,7 +3020,7 @@ let searchedItems = 0;
     LEATHERGLOVE.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -3074,7 +3074,7 @@ let searchedItems = 0;
    LONGSLEEVE.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -3107,7 +3107,7 @@ let searchedItems = 0;
     METALCHESTPLATE.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -3140,7 +3140,7 @@ let searchedItems = 0;
     METALFACEMASK.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -3200,7 +3200,7 @@ let searchedItems = 0;
     MINERSHAT.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -3217,7 +3217,7 @@ let searchedItems = 0;
     PANTS.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -3349,7 +3349,7 @@ let searchedItems = 0;
     RIOTHELM.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -3378,7 +3378,7 @@ let searchedItems = 0;
     ROADSIGNVEST.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -3462,7 +3462,7 @@ let searchedItems = 0;
     ROADSIGNKILT.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -3550,7 +3550,7 @@ let searchedItems = 0;
     ROADSIGNGLOVES.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -3569,7 +3569,7 @@ let searchedItems = 0;
     SHIRT.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -3592,7 +3592,7 @@ let searchedItems = 0;
     SHORTS.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -3611,7 +3611,7 @@ let searchedItems = 0;
     SNOWJACKET.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -3637,7 +3637,7 @@ let searchedItems = 0;
     SHORTS.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -3655,7 +3655,7 @@ let searchedItems = 0;
     TSHIRT.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -3691,7 +3691,7 @@ let searchedItems = 0;
     TANKTOP.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -3706,7 +3706,7 @@ let searchedItems = 0;
     REACTIVETARGET.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
@@ -3723,7 +3723,7 @@ let searchedItems = 0;
     RUG.addEventListener("click", () => {
       const elementList = [...document.querySelectorAll(`body > div.user-cards > div:nth-child(n) > div`)];
       form.addEventListener('submit', () => {
-        for (let i = 0; i < 3224; i++) { 
+        for (let i = 0; i < 3379; i++) { 
           if (elementList[i]) {
             elementList[i].style.display = 'flex';
         }
