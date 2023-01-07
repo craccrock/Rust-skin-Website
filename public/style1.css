@@ -18,7 +18,21 @@
   src: url(/fonts/Mvdawlatulislam-Z8dJ.ttf);
   font-weight: 100;
 }
-
+@font-face {
+  font-family: "opensans-bold";
+  src: url(/fonts/OpenSans/OpenSans-Bold.ttf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: "opensans-medium";
+  src: url(/fonts/OpenSans/OpenSans-Medium.ttf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: "opensans-extrabold";
+  src: url(/fonts/OpenSans/OpenSans-ExtraBold.ttf);
+  font-weight: 100;
+}
 nav {
   display: flex;
   padding: 2% 6%;
@@ -119,6 +133,8 @@ nav .fas {
 }
 .col-4 h4 {
   color: rgb(182, 181, 181);
+  font-family: opensans-bold;
+  
 }
 body{
   min-height: 100vh;
@@ -300,7 +316,6 @@ body {
   font-family: aove;
   color: rgb(182, 181, 181);
   text-decoration: none;
-
   font-weight: bold;
 }
 .col-4 img {

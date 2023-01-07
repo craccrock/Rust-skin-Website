@@ -34,7 +34,21 @@
   src: url(public\fonts\Typographica.ttf);
   font-weight: 100;
 }
-
+@font-face {
+  font-family: "opensans-bold";
+  src: url(/fonts/OpenSans/OpenSans-Bold.ttf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: "opensans-medium";
+  src: url(/fonts/OpenSans/OpenSans-Medium.ttf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: "opensans-extrabold";
+  src: url(/fonts/OpenSans/OpenSans-ExtraBold.ttf);
+  font-weight: 100;
+}
 
 .header {
   min-height: 100vh;

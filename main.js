@@ -3,7 +3,7 @@ import express from 'express'
 import { createClient, SchemaFieldTypes} from 'redis';
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.use(express.static("public"));
 
@@ -12,13 +12,13 @@ app.listen(port, () => console.log(`running on http://localhost:${port}`)
 
 (async () => {
   const client = createClient({
-    url: 'redis://default:wDxWW5ZTQ77zqkRGrBI9JN1jOi5GoCLu@redis-10425.c251.east-us-mz.azure.cloud.redislabs.com:10425',
+    url: 'redis://default:k67uOK5deUJi82Vzr3QVp2zm4X9YsZzm@redis-13410.c10.us-east-1-3.ec2.cloud.redislabs.com:13410',
     legacyMode: true
   });
 
   await client.connect();
   
-  const apiPoint = `https://api.steamapis.com/market/items/252490?api_key=M8JyL4CRLBJ5IXLS7RyLHwmwPno`
+  const apiPoint = `https://api.steamapis.com/market/items/252490?api_key=zAhYomtaosX3P6WpnQZv5STbJFE`
 
   try {
     await client.ft.create('idx:skins', {
@@ -50,33 +50,25 @@ app.listen(port, () => console.log(`running on http://localhost:${port}`)
 
   
 
-  // console.log(
-  //   // https://oss.redis.com/redisearch/Commands/#ftsearch
-  //   JSON.stringify(
-  //     await client.ft.search('idx:skins', '@market_name: zebra'), 
-  //     null, 
-  //     2
-  //   )
-  // );
 
 
 
-async function bababoey() {
+async function newData() {
 let apiLooped = await axios.get(apiPoint)
 let finalResults = await apiLooped.data.data
+console.log("new data fetched ")
 
 
-for (let i = 0; i <= 3157; i++) {
+for (let i = 0; i <= 3379; i++) {
   await client.json.set(`noderedis:skins:${i}`, "$", finalResults[i]);
 }
 }
 
 
-// bababoey()
+setInterval(newData, 1000 * 60 * 60 * 2);
+
 
 async function getData(){
-
-  
   const searchedData = await client.ft.search('idx:skins', '*', { LIMIT: { from: 0, size: 10000 }});
 
   return { ...searchedData };
