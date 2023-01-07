@@ -49,9 +49,7 @@ nav {
   padding: 8px 12px;
   position: relative;
 }
-.navlinks ul li:nth-child(2) {
 
-  }
 .navlinks ul li a {
   color: rgb(182, 181, 181);
   text-decoration: none;
@@ -174,6 +172,8 @@ body{
   .navlinks ul {
     padding: 25px;
   }
+
+
 }
 .categories {
   margin: 70px 0;
@@ -186,18 +186,27 @@ body{
   align-items: center;
   padding-top: 25px;
 }
-
-.buttonss{
+div.buttonss{
   display: flex;
-  flex-direction: row;
   justify-content:center;
   align-items: center;
   padding-top: 25px;
 }
-.buttonss .button1{
-  margin-left: 20px;
-  margin-right: 20px;
 
+.user-cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  max-width: 1480px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  opacity: 0;
+  display: none;
+  transition: opacity 0.7s ease-in-out;
+}
+
+button.link{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .buttonss .dropdown{
@@ -215,7 +224,6 @@ body{
   padding: 12px 34px;
   font-size: 16px;
   background: transparent;
-  position: relative;
   cursor: pointer;
 }
 .button1:hover {
@@ -227,6 +235,9 @@ body{
   border: 1px solid #4d2c70;
   background: #4d2c70;
   transition: 0.7;
+}
+#all-skins{
+  display: inline-block;
 }
 
 .search-bar{
@@ -313,10 +324,15 @@ body {
   margin-bottom: 40px;
 }
 .col-4 div {
-  font-family: aove;
+
   color: rgb(182, 181, 181);
-  text-decoration: none;
-  font-weight: bold;
+
+}
+#name{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#price{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 .col-4 img {
   width: 100%;
@@ -335,6 +351,7 @@ body {
 .col-4 img:hover {
   box-shadow: 0px 0px 50px 5px rgba(140, 54, 184, 0.82);
 }
+
 
 .hide{
   display: none;
@@ -529,3 +546,15 @@ body > div.user-cards > div:nth-child(-n+100) > div {
   font-family: MV;
   text-align: center;
 }
+
+/* Scrollable-dropdown */
+
+div.dropdown-menu.information-grid {
+    max-height:250px;/* you can change as you need it */
+    overflow:auto;/* to get scroll */
+}
+
+
+
+
+
